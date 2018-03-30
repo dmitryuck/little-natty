@@ -1,0 +1,80 @@
+<dialog>
+  <replic id="0" person="friend">
+	Hey, arrêtez-vous!
+  </replic>
+  
+  <replic id="1" person="friend">
+	Il est bon que vous avez été ici!
+  </replic>
+  
+  <replic id="2" person="friend">
+	Laissez-moi sortir de ce piège...
+  </replic>
+  
+  <replic id="3" person="natty">
+	Сomment vous y êtes arrivé?
+  </replic>
+  
+  <replic id="4" person="friend">
+	Je marchais dans les bois et a obtenu dans ce piège!
+  </replic>
+  
+  <replic id="5" person="natty">
+	Mais comment puis-je vous aider?
+  </replic>
+  
+  <replic id="6" person="natty">
+	Pour ouvrir le piège, besoin d'une clé!
+  </replic>
+  
+  <replic id="7" person="friend">
+	Pensez à quelque chose!
+  </replic>
+  
+  <replic id="8" person="friend">
+	Je ne peux pas rester ici...
+  </replic>
+  
+  <replic id="9" person="natty">
+	Je n'ai pas le temps!
+  </replic>
+  
+  <replic id="10" person="natty">
+	Je cherche ma mère...
+  </replic>
+  
+  <replic id="11" person="friend">
+	Peut-être que je peux vous aider avec quelque chose...
+  </replic>
+  
+  <replic id="12" person="friend">
+	Libère-moi et je vais vous aider!
+  </replic>
+  
+  <replic id="13" person="natty">
+	Eh bien, je vais penser à quelque chose ...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

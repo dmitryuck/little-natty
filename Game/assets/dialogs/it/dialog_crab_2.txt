@@ -1,0 +1,80 @@
+<dialog>
+  <replic id="0" person="friend">
+	Bene, finalmente!
+  </replic>
+  
+  <replic id="1" person="friend">
+	Ho già iniziato a pensare che tu non vieni...
+  </replic>
+  
+  <replic id="2" person="natty">
+	Era difficile trovare la chiave...
+  </replic>
+  
+  <replic id="3" person="friend">
+	Ebbene, che cosa vi levate in piedi? Aprire la gabbia presto!
+  </replic>
+  
+  <replic id="4" person="natty">
+	Ora siete liberi!
+  </replic>
+  
+  <replic id="5" person="friend">
+	Così che cosa posso aiutarla?
+  </replic>
+  
+  <replic id="6" person="natty">
+	Non hai visto in giro qui uno stormo di tartarughe?
+  </replic>
+  
+  <replic id="7" person="friend">
+	No, non visto...
+  </replic>
+  
+  <replic id="8" person="friend">
+	Ma io so dove si può essere!
+  </replic>
+  
+  <replic id="9" person="natty">
+	Davvero? Dove si trova?
+  </replic>
+  
+  <replic id="10" person="friend">
+	Passare attraverso la foresta in questo percorso...
+  </replic>
+  
+  <replic id="11" person="friend">
+	Quindi si va alla cascata, probabilmente sono là fuori!
+  </replic>
+  
+  <replic id="12" person="natty">
+	Grazie granchio! Attenzione alle trappole!
+  </replic>
+  
+  <replic id="13" person="friend">
+	Heh-heh-heh, buona fortuna a voi la tartaruga!
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

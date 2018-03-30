@@ -1,0 +1,80 @@
+<dialog>
+  <replic id="0" person="friend">
+	Hey, ¡deténgase!
+  </replic>
+  
+  <replic id="1" person="friend">
+	Estoy tan contenta de que estés vamos!
+  </replic>
+  
+  <replic id="2" person="friend">
+	Abrir trampa...
+  </replic>
+  
+  <replic id="3" person="natty">
+	¿Cómo se metió en esta trampa?
+  </replic>
+  
+  <replic id="4" person="friend">
+	Me acaba de entrar en el bosque y se metió en esta trampa!
+  </replic>
+  
+  <replic id="5" person="natty">
+	Pero, ¿cómo puedo ayudarle?
+  </replic>
+  
+  <replic id="6" person="natty">
+	Para abrir la trampa, se necesita una llave!
+  </replic>
+  
+  <replic id="7" person="friend">
+	Piensa en algo!
+  </replic>
+  
+  <replic id="8" person="friend">
+	No puedo sentarme aquí...
+  </replic>
+  
+  <replic id="9" person="natty">
+	No tengo tiempo para meterse con su trampa!
+  </replic>
+  
+  <replic id="10" person="natty">
+	Estoy buscando a mi madre...
+  </replic>
+  
+  <replic id="11" person="friend">
+	Tal vez pueda ayudarte en algo...
+  </replic>
+  
+  <replic id="12" person="friend">
+	Pero primero, me puso en libertad!
+  </replic>
+  
+  <replic id="13" person="natty">
+	Bueno, voy a pensar en algo...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+<interface>
+  <ID_PLAY>Spela</ID_PLAY>
+  <ID_MENU>Meny</ID_MENU>
+  <ID_EXIT>Utgång</ID_EXIT>
+  <ID_OPTIONS>Alternativ</ID_OPTIONS>
+  <ID_MORE_GAMES>Andra spel</ID_MORE_GAMES>
+  <ID_OK>Ja</ID_OK>
+  <ID_AGAIN>Igen</ID_AGAIN>
+  <ID_NEXT>Ytterligare</ID_NEXT>
+  <ID_GAME_OVER>Du förlorar</ID_GAME_OVER>
+  <ID_GAME_WIN>Nivå leds</ID_GAME_WIN>
+  <ID_DESCRIPTION>Little Natty - Den nya pussel, är huvudpersonen en liten sköldpadda som söker sin mor, och hon behöver din hjälp!</ID_DESCRIPTION>
+  <ID_SOUND>Ijud</ID_SOUND>
+  <ID_MUSIC>Musik</ID_MUSIC>
+</interface>

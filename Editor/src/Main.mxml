@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009"
+                       xmlns:s="library://ns.adobe.com/flex/spark"
+                       xmlns:mx="library://ns.adobe.com/flex/mx"
+					   creationComplete="init()">
+					   
+	<fx:Script>	
+		<![CDATA[
+		
+		import editor.Options;
+		import flash.display.Sprite;	
+		import flash.events.KeyboardEvent;
+		import flash.events.MouseEvent;
+		import flash.events.NativeDragEvent;
+		import flash.geom.Point;
+		import flash.ui.Keyboard;
+		import mx.controls.List;
+		import mx.core.Application;
+		import mx.core.Container;
+		import mx.core.UIComponent;
+		import mx.controls.Alert;
+		import mx.containers.Canvas;
+		import mx.containers.Box;
+		import mx.events.DragEvent;
+		import flash.net.*; 
+		
+		import game.core.*;
+		import game.ui.*;
+		import editor.Editor;
+		import editor.*;
+		import editor.Inspector;
+		import editor.Controls;
+		import user.*;
+		
+		
+		public static var game:UIComponent;
+
+		public static var inspector:Inspector;
+		public static var controls:Controls;
+		public static var options:Options;
+		
+		
+		public static var transformManager:TransformManager;
+		
+		private function init() : void
+		{
+			// Установка режима компилиции РЕДАКТОР
+			Project.setProject(Project.EDITOR);
+			
+			transformManager = new TransformManager();			
+			
+			game = new UIComponent();			
+			
+			addEventListener(MouseEvent.MOUSE_WHEEL, onWhell);
+			addEventListener(KeyboardEvent.KEY_DOWN, onKeyDown);
+			addEventListener(MouseEvent.CLICK, onClick);
+			
+			game.x = 0;
+			game.y = 40;
+			
+			addElement(game);
+			
+			new Game(game);
+			
+			inspector = new Inspector();
+			controls = new Controls();
+			
+			addElement(inspector);
+			addElement(controls);			
+		}		
+		
+		private function onClick(e:MouseEvent):void 
+		{
+			
+		}
+		
+		private function onKeyDown(e:KeyboardEvent):void 
+		{
+			if (e.keyCode == Keyboard.LEFT) Game.camera.moveLeft(8);
+			if (e.keyCode == Keyboard.RIGHT) Game.camera.moveRight(8);
+			if (e.keyCode == Keyboard.UP) Game.camera.moveUp(8);
+			if (e.keyCode == Keyboard.DOWN) Game.camera.moveDown(8);			
+		}
+		
+		private function onWhell(e:MouseEvent):void 
+		{
+			if (e.delta > 0)	Game.camera.zoomIn(); else Game.camera.zoomOut();
+			
+			Game.camera.moveTo(new Point(mouseX, mouseY));
+		}
+		
+		]]>
+	</fx:Script>
+	
+</s:WindowedApplication>

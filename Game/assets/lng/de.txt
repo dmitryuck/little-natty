@@ -1,0 +1,15 @@
+<interface>
+  <ID_PLAY>Spielen</ID_PLAY>
+  <ID_MENU>Menü</ID_MENU>
+  <ID_EXIT>Ausgang</ID_EXIT>
+  <ID_OPTIONS>Optionen</ID_OPTIONS>
+  <ID_MORE_GAMES>Mehr Spiele</ID_MORE_GAMES>
+  <ID_OK>Ja</ID_OK>
+  <ID_AGAIN>Anfangs</ID_AGAIN>
+  <ID_NEXT>Weiter</ID_NEXT>
+  <ID_GAME_OVER>Sie verlieren</ID_GAME_OVER>
+  <ID_GAME_WIN>Stufe übergeben wird</ID_GAME_WIN>
+  <ID_DESCRIPTION>Little Natty - Ein neues Puzzle-Spiel etwa eine kleine Schildkröte, wird nach seiner Mutter sucht...</ID_DESCRIPTION>
+  <ID_SOUND>Klingt</ID_SOUND>
+  <ID_MUSIC>Musik</ID_MUSIC>
+</interface>

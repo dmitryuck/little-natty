@@ -1,0 +1,80 @@
+<dialog>
+  <replic id="0" person="friend">
+	Hey, vänta!
+  </replic>
+  
+  <replic id="1" person="friend">
+	Bra att du är nära!
+  </replic>
+  
+  <replic id="2" person="friend">
+	Ställ mig fri...
+  </replic>
+  
+  <replic id="3" person="natty">
+	Hur kom du dit?
+  </replic>
+  
+  <replic id="4" person="friend">
+	Jag gick bara i skogen och kommit in i denna fälla!
+  </replic>
+  
+  <replic id="5" person="natty">
+	Hur kan jag hjälpa dig?
+  </replic>
+  
+  <replic id="6" person="natty">
+	Cellen är låst!
+  </replic>
+  
+  <replic id="7" person="friend">
+	Tänk på något!
+  </replic>
+  
+  <replic id="8" person="friend">
+	Jag kan inte sitta här...
+  </replic>
+  
+  <replic id="9" person="natty">
+	Jag har inte tid att bråka med sin cell!
+  </replic>
+  
+  <replic id="10" person="natty">
+	Jag letar efter min mamma...
+  </replic>
+  
+  <replic id="11" person="friend">
+	Jag kanske kan göra något för att hjälpa...
+  </replic>
+  
+  <replic id="12" person="friend">
+	Men först satte mig gratis!
+  </replic>
+  
+  <replic id="13" person="natty">
+	Jag tror jag kan hjälpa dig...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

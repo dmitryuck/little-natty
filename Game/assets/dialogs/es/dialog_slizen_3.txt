@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="friend">
+	¡Oh, eres tú otra vez...
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Bueno, hice lo que le pidió que?
+  </replic> 
+  
+  <replic id="2" person="natty">
+	Sí, él está muy agradecido y, a cambio le envía esta pera...
+  </replic> 
+  
+  <replic id="3" person="friend">
+	Gracias tortuga, yo sé que usted puede confiar...
+  </replic> 
+  
+  <replic id="4" person="natty">
+	Entonces, ¿cómo puedo ir a la cascada?
+  </replic> 
+  
+  <replic id="5" person="friend">
+	Vaughn ve un camino, pasar por ella y salir directamente a la cascada!
+  </replic> 
+  
+  <replic id="6" person="natty">
+	¡Gracias!
+  </replic> 
+  
+  <replic id="7" person="friend">
+	¡Buena suerte a la tortuga!
+  </replic> 
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+<scene script="Scene4" name="">
+  <objects>
+    <frontLayer />
+    <gameLayer>
+      <object rotation="-90" xPosition="748" prefab="" yPosition="335" fileName="graphics/hero/natty.swf" tag="natty" name="f_4_8" type="Natty" scale="0.5" index="0" center="true" />
+      <object rotation="0" xPosition="153" prefab="" yPosition="55" fileName="graphics/objects/exit.swf" tag="exit" name="f_1_2" type="Exit" scale="1" index="1" center="true" />
+      <object rotation="0" xPosition="351" prefab="" yPosition="242" fileName="graphics/fruits/abrikos.swf" tag="" name="f_3_4" type="Fruit" scale="1" index="2" center="true" />
+      <object rotation="0" xPosition="648" prefab="" yPosition="55" fileName="graphics/fruits/ananas.swf" tag="" name="f_1_7" type="Fruit" scale="1" index="3" center="true" />
+      <object rotation="0" xPosition="550" prefab="" yPosition="428" fileName="graphics/fruits/apple.swf" tag="" name="f_5_6" type="Fruit" scale="1" index="4" center="true" />
+      <object rotation="0" xPosition="153" prefab="" yPosition="428" fileName="graphics/fruits/ezhevika.swf" tag="" name="f_5_2" type="Fruit" scale="1" index="5" center="true" />
+      <object rotation="0" xPosition="55" prefab="" yPosition="242" fileName="graphics/fruits/hurma.swf" tag="" name="f_3_1" type="Fruit" scale="1" index="6" center="true" />
+      <object rotation="0" xPosition="451" prefab="" yPosition="55" fileName="graphics/fruits/kiwi.swf" tag="" name="f_1_5" type="Fruit" scale="1" index="7" center="true" />
+      <object rotation="0" xPosition="252" prefab="" yPosition="148" fileName="graphics/fruits/apple.swf" tag="" name="f_2_3" type="Fruit" scale="1" index="8" center="true" />
+      <object rotation="0" xPosition="748" prefab="" yPosition="55" fileName="graphics/fruits/apple.swf" tag="" name="f_1_8" type="Fruit" scale="1" index="9" center="true" />
+      <object rotation="0" xPosition="55" prefab="" yPosition="428" fileName="graphics/fruits/kiwi.swf" tag="" name="f_5_1" type="Fruit" scale="1" index="10" center="true" />
+      <object rotation="0" xPosition="451" prefab="" yPosition="428" fileName="graphics/fruits/hurma.swf" tag="" name="f_5_5" type="Fruit" scale="1" index="11" center="true" />
+      <object rotation="0" xPosition="550" prefab="" yPosition="242" fileName="graphics/fruits/ezhevika.swf" tag="" name="f_3_6" type="Fruit" scale="1" index="12" center="true" />
+      <object rotation="0" xPosition="55" prefab="" yPosition="148" fileName="graphics/fruits/ezhevika.swf" tag="" name="f_2_1" type="Fruit" scale="1" index="13" center="true" />
+      <object rotation="0" xPosition="451" prefab="" yPosition="335" fileName="graphics/fruits/ananas.swf" tag="" name="f_4_5" type="Fruit" scale="1" index="14" center="true" />
+      <object rotation="0" xPosition="748" prefab="" yPosition="148" fileName="graphics/fruits/ananas.swf" tag="" name="f_2_8" type="Fruit" scale="1" index="15" center="true" />
+      <object rotation="0" xPosition="252" prefab="" yPosition="242" fileName="graphics/fruits/ananas.swf" tag="" name="f_3_3" type="Fruit" scale="1" index="16" center="true" />
+      <object rotation="0" xPosition="351" prefab="" yPosition="55" fileName="graphics/fruits/ezhevika.swf" tag="" name="f_1_4" type="Fruit" scale="1" index="17" center="true" />
+      <object rotation="0" xPosition="648" prefab="" yPosition="148" fileName="graphics/fruits/abrikos.swf" tag="" name="f_2_7" type="Fruit" scale="1" index="18" center="true" />
+      <object rotation="0" xPosition="648" prefab="" yPosition="335" fileName="graphics/fruits/kiwi.swf" tag="" name="f_4_7" type="Fruit" scale="1" index="19" center="true" />
+      <object rotation="0" xPosition="648" prefab="" yPosition="242" fileName="graphics/fruits/hurma.swf" tag="" name="f_3_7" type="Fruit" scale="1" index="20" center="true" />
+      <object rotation="0" xPosition="748" prefab="" yPosition="242" fileName="graphics/fruits/apple.swf" tag="" name="f_3_8" type="Fruit" scale="1" index="21" center="true" />
+      <object rotation="0" xPosition="153" prefab="" yPosition="335" fileName="graphics/fruits/abrikos.swf" tag="" name="f_4_2" type="Fruit" scale="1" index="22" center="true" />
+      <object rotation="0" xPosition="550" prefab="" yPosition="55" fileName="graphics/fruits/ezhevika.swf" tag="" name="f_1_6" type="Fruit" scale="1" index="23" center="true" />
+      <object rotation="0" xPosition="55" prefab="" yPosition="335" fileName="graphics/fruits/ananas.swf" tag="" name="f_4_1" type="Fruit" scale="1" index="24" center="true" />
+      <object rotation="0" xPosition="55" prefab="" yPosition="55" fileName="graphics/fruits/abrikos.swf" tag="" name="f_1_1" type="Fruit" scale="1" index="25" center="true" />
+      <object rotation="0" xPosition="351" prefab="" yPosition="335" fileName="graphics/fruits/apple.swf" tag="" name="f_4_4" type="Fruit" scale="1" index="26" center="true" />
+      <object rotation="0" xPosition="351" prefab="" yPosition="148" fileName="graphics/fruits/hurma.swf" tag="" name="f_2_4" type="Fruit" scale="1" index="27" center="true" />
+      <object rotation="0" xPosition="252" prefab="" yPosition="55" fileName="graphics/fruits/ananas.swf" tag="" name="f_1_3" type="Fruit" scale="1" index="28" center="true" />
+      <object rotation="0" xPosition="153" prefab="" yPosition="148" fileName="graphics/fruits/kiwi.swf" tag="" name="f_2_2" type="Fruit" scale="1" index="29" center="true" />
+      <object rotation="0" xPosition="748" prefab="" yPosition="428" fileName="graphics/fruits/hurma.swf" tag="" name="f_5_8" type="Fruit" scale="1" index="30" center="true" />
+      <object rotation="0" xPosition="648" prefab="" yPosition="428" fileName="graphics/fruits/ezhevika.swf" tag="" name="f_5_7" type="Fruit" scale="1" index="31" center="true" />
+      <object rotation="0" xPosition="550" prefab="" yPosition="335" fileName="graphics/fruits/abrikos.swf" tag="" name="f_4_6" type="Fruit" scale="1" index="32" center="true" />
+      <object rotation="0" xPosition="451" prefab="" yPosition="148" fileName="graphics/fruits/apple.swf" tag="" name="f_2_5" type="Fruit" scale="1" index="33" center="true" />
+      <object rotation="0" xPosition="550" prefab="" yPosition="148" fileName="graphics/fruits/ananas.swf" tag="" name="f_2_6" type="Fruit" scale="1" index="34" center="true" />
+      <object rotation="0" xPosition="451" prefab="" yPosition="242" fileName="graphics/fruits/hurma.swf" tag="" name="f_3_5" type="Fruit" scale="1" index="35" center="true" />
+      <object rotation="0" xPosition="153" prefab="" yPosition="242" fileName="graphics/fruits/kiwi.swf" tag="" name="f_3_2" type="Fruit" scale="1" index="36" center="true" />
+      <object rotation="0" xPosition="252" prefab="" yPosition="428" fileName="graphics/fruits/apple.swf" tag="" name="f_5_3" type="Fruit" scale="1" index="37" center="true" />
+      <object rotation="0" xPosition="252" prefab="" yPosition="335" fileName="graphics/fruits/ezhevika.swf" tag="" name="f_4_3" type="Fruit" scale="1" index="38" center="true" />
+      <object rotation="0" xPosition="351" prefab="" yPosition="428" fileName="graphics/objects/key.swf" tag="key" name="f_5_4" type="Key" scale="1" index="39" center="true" />
+    </gameLayer>
+    <backLayer>
+      <object rotation="0" xPosition="0" prefab="" yPosition="0" fileName="graphics/bg/bg_4.swf" tag="" name="" type="" scale="1" index="0" center="false" />
+    </backLayer>
+  </objects>
+  <prefabs />
+</scene>

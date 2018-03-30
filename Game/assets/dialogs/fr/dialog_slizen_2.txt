@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="natty">
+	Bonjour! Vous avez le colis!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Qui me l'a envoyé?
+  </replic> 
+  
+  <replic id="2" person="natty">
+	Votre ami est un ver de terre!
+  </replic> 
+  
+  <replic id="3" person="friend">
+	Oh, bien, merci!
+  </replic> 
+  
+  <replic id="4" person="friend">
+	Eh bien, comme un témoignage de ma gratitude apportez-lui la poire...
+  </replic> 
+  
+  <replic id="5" person="natty">
+	Allons, pas de problème!
+  </replic>
+  
+  <replic id="6" person="friend">
+	Bonne chance, et la solution de facilité!
+  </replic>
+
+  <replic id="7" person="natty">
+	Je vous remercie, ver de terre!
+  </replic>   
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

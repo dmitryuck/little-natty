@@ -1,0 +1,15 @@
+<interface>
+  <ID_PLAY>Hrát</ID_PLAY>
+  <ID_MENU>Menu</ID_MENU>
+  <ID_EXIT>Výstup</ID_EXIT>
+  <ID_OPTIONS>Možnosti</ID_OPTIONS>
+  <ID_MORE_GAMES>Další hry</ID_MORE_GAMES>
+  <ID_OK>Ano</ID_OK>
+  <ID_AGAIN>Opět</ID_AGAIN>
+  <ID_NEXT>Další</ID_NEXT>
+  <ID_GAME_OVER>Ztratíte</ID_GAME_OVER>
+  <ID_GAME_WIN>Úroveň je předán</ID_GAME_WIN>
+  <ID_DESCRIPTION>Little Natty - Nová logická hra, hlavním hrdinou je malá želva, která hledá svou matku, a ona potřebuje vaši pomoc!</ID_DESCRIPTION>
+  <ID_SOUND>Zvuky</ID_SOUND>
+  <ID_MUSIC>Hudba</ID_MUSIC>
+</interface>

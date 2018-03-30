@@ -1,0 +1,80 @@
+<dialog>
+  <replic id="0" person="friend">
+	Hele, přestaň!
+  </replic>
+  
+  <replic id="1" person="friend">
+	Jak dobře, že jste prošel!
+  </replic>
+  
+  <replic id="2" person="friend">
+	Otevřete pasti, rychle!
+  </replic>
+  
+  <replic id="3" person="natty">
+	Jak se vám trefit?
+  </replic>
+  
+  <replic id="4" person="friend">
+	Jen jsem chodil po lese a dostali se do této pasti!
+  </replic>
+  
+  <replic id="5" person="natty">
+	Ale jak vám mohu pomoci?
+  </replic>
+  
+  <replic id="6" person="natty">
+	Chcete-li otevřít hubu, budete potřebovat klíč!
+  </replic>
+  
+  <replic id="7" person="friend">
+	Vymysli něco!
+  </replic>
+  
+  <replic id="8" person="friend">
+	Sedím tady tak dlouho ...
+  </replic>
+  
+  <replic id="9" person="natty">
+	Nemám čas na nepořádek s vaší pasti!
+  </replic>
+  
+  <replic id="10" person="natty">
+	Já jsem při hledání jeho matky...
+  </replic>
+  
+  <replic id="11" person="friend">
+	Možná, že vám mohu pomoci s něčím...
+  </replic>
+  
+  <replic id="12" person="friend">
+	Ale nejdřív, osvoboď mě!
+  </replic>
+  
+  <replic id="13" person="natty">
+	No, budu myslet na něco...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

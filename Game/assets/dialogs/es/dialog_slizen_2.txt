@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="natty">
+	¡Hola! Tome paquete!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	¿Quién me ha enviado esta manzana?
+  </replic> 
+  
+  <replic id="2" person="natty">
+	Su babosa amigo!
+  </replic> 
+  
+  <replic id="3" person="friend">
+	Oh, él, bien, gracias!
+  </replic> 
+  
+  <replic id="4" person="friend">
+	Bueno, como muestra de mi gratitud le traerá la pera...
+  </replic> 
+  
+  <replic id="5" person="natty">
+	Vamos, no hay problema!
+  </replic>
+  
+  <replic id="6" person="friend">
+	Buena suerte, y la manera fácil!
+  </replic>
+
+  <replic id="7" person="natty">
+	¡Gracias!
+  </replic>   
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+<dialog>
+  <replic id="0" person="friend">
+	Эй, стой!
+  </replic>
+  
+  <replic id="1" person="friend">
+	Как хорошо, что ты проходила мимо!
+  </replic>
+  
+  <replic id="2" person="friend">
+	Освободи меня поскорее...
+  </replic>
+  
+  <replic id="3" person="natty">
+	Как ты там оказался?
+  </replic>
+  
+  <replic id="4" person="friend">
+	Я просто гулял по лесу и угодил в эту ловушку!
+  </replic>
+  
+  <replic id="5" person="natty">
+	Но как я могу тебе помочь?
+  </replic>
+  
+  <replic id="6" person="natty">
+	Ведь клетка заперта на ключ!
+  </replic>
+  
+  <replic id="7" person="friend">
+	Придумай же что-нибудь!
+  </replic>
+  
+  <replic id="8" person="friend">
+	Я больше не могу здесь сидеть...
+  </replic>
+  
+  <replic id="9" person="natty">
+	Некогда мне с твоей клеткой возиться!
+  </replic>
+  
+  <replic id="10" person="natty">
+	Я ищу свою маму...
+  </replic>
+  
+  <replic id="11" person="friend">
+	Может быть я смогу тебе чем-то помочь...
+  </replic>
+  
+  <replic id="12" person="friend">
+	Но сначала освободи меня!
+  </replic>
+  
+  <replic id="13" person="natty">
+	Хорошо, я что-нибудь придумаю...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

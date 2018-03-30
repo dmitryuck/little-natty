@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="natty">
+	Dobrý den! To je pro tebe!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Od koho to je?
+  </replic> 
+  
+  <replic id="2" person="natty">
+	Slimák je požadováno přenášet na Vás!
+  </replic> 
+  
+  <replic id="3" person="friend">
+	No, on, dobře, děkuji!
+  </replic> 
+  
+  <replic id="4" person="friend">
+	No, jako výraz mé vděčnosti k němu, to Hrušeň...
+  </replic> 
+  
+  <replic id="5" person="natty">
+	No, žádný problém!
+  </replic>
+  
+  <replic id="6" person="friend">
+	Hodně štěstí a snadný způsob, jak!
+  </replic>
+
+  <replic id="7" person="natty">
+	Děkuji vám!
+  </replic>   
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="friend">
+	Ach, to jsi zase ...
+  </replic>  
+  
+  <replic id="1" person="friend">
+	No, udělal to, co jsem se vás ptal na?
+  </replic> 
+  
+  <replic id="2" person="natty">
+	Ano, je velmi vděčný a na oplátku vám pošle tento hrušky...
+  </replic> 
+  
+  <replic id="3" person="friend">
+	Děkuji vám želvu, vím, že můžete věřit...
+  </replic> 
+  
+  <replic id="4" person="natty">
+	Tak, jak mám jít k vodopádu?
+  </replic> 
+  
+  <replic id="5" person="friend">
+	Vaughn vidí cestu, projít a vyjdou přímo k vodopádu!
+  </replic> 
+  
+  <replic id="6" person="natty">
+	Děkuji vám!
+  </replic> 
+  
+  <replic id="7" person="friend">
+	Hodně štěstí želvy!
+  </replic> 
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+<dialog>
+  <replic id="0" person="friend">
+	Ehi, fermati!
+  </replic>
+  
+  <replic id="1" person="friend">
+	Quanto è buono che avete passato!
+  </replic>
+  
+  <replic id="2" person="friend">
+	Aprire la trappola presto!
+  </replic>
+  
+  <replic id="3" person="natty">
+	Come ti ha colpito?
+  </replic>
+  
+  <replic id="4" person="friend">
+	Sono appena entrato nel bosco e preso in questa trappola!
+  </replic>
+  
+  <replic id="5" person="natty">
+	Ma come posso aiutarla?
+  </replic>
+  
+  <replic id="6" person="natty">
+	Dopo che la cella è bloccata!
+  </replic>
+  
+  <replic id="7" person="friend">
+	Pensate a qualcosa!
+  </replic>
+  
+  <replic id="8" person="friend">
+	Non posso stare qui...
+  </replic>
+  
+  <replic id="9" person="natty">
+	Non ho tempo per rimuovere voi da lì!
+  </replic>
+  
+  <replic id="10" person="natty">
+	Sto cercando per mia madre...
+  </replic>
+  
+  <replic id="11" person="friend">
+	Forse posso aiutarti con qualcosa...
+  </replic>
+  
+  <replic id="12" person="friend">
+	Ma prima mi aiuti!
+  </replic>
+  
+  <replic id="13" person="natty">
+	Beh, ti aiuto io...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="friend">
+	Oh, sei tu di nuovo...
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Beh, hai fatto quello che ti ho chiesto?
+  </replic> 
+  
+  <replic id="2" person="natty">
+	Sì, lui è molto grato e in cambio vi manda questa pera...
+  </replic> 
+  
+  <replic id="3" person="friend">
+	Grazie, so che ci si può fidare...
+  </replic> 
+  
+  <replic id="4" person="natty">
+	Allora, come faccio andare alla cascata?
+  </replic> 
+  
+  <replic id="5" person="friend">
+	Vaughn vede un percorso, passare attraverso di essa ed escono direttamente alla cascata!
+  </replic> 
+  
+  <replic id="6" person="natty">
+	Grazie!
+  </replic> 
+  
+  <replic id="7" person="friend">
+	Buona fortuna a te!
+  </replic> 
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

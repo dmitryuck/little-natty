@@ -1,0 +1,116 @@
+<dialog>
+  <replic id="0" person="friend">
+	El banano es mi favorito!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Yo estaba esperando desde hace tanto tiempo!
+  </replic>
+  
+  <replic id="2" person="natty">
+	Los plátanos será tuya cuando le dices a donde las tortugas!
+  </replic>
+  
+  <replic id="3" person="natty">
+	Por lo tanto, donde las tortugas van?
+  </replic>
+  
+  <replic id="4" person="friend">
+	Siéntate y escucha mi historia...
+  </replic>
+  
+  <replic id="5" person="friend">
+	Fue una vez, hace mucho tiempo...
+  </replic>
+  
+  <replic id="6" person="friend">
+	Cuando me embarqué con los piratas en el mar sin límites...
+  </replic>
+  
+  <replic id="7" person="friend">
+	Varias veces pasó junto a la isla...
+  </replic>
+  
+  <replic id="8" person="friend">
+	Donde había tantas tortugas...
+  </replic>
+  
+  <replic id="9" person="friend">
+	Esto es simplemente imposible de expresar con palabras...
+  </replic>
+  
+  <replic id="10" person="friend">
+	La isla entera parecía una tortuga gigante...
+  </replic>
+  
+  <replic id="11" person="friend">
+	El lugar se llama "Isla Tortuga"!
+  </replic>
+  
+  <replic id="12" person="natty">
+	¿Y cómo llego hasta allí?
+  </replic>
+  
+  <replic id="13" person="friend">
+	Mi capitán de la nave tenía un mapa...
+  </replic>
+  
+  <replic id="14" person="friend">
+	Sin embargo, una tormenta destruyó la nave y el mar se llevó todo...
+  </replic>
+  
+  <replic id="15" person="friend">
+	Aquí, cerca de la playa, vi los restos de nuestro barco...
+  </replic>
+  
+  <replic id="16" person="friend">
+	Buscar entre ellos el mapa y siga hasta la "Isla Tortuga"...
+  </replic>
+  
+  <replic id="17" person="friend">
+	Allí podrá encontrar a madre...
+  </replic>
+  
+  <replic id="18" person="friend">
+	Sólo espera que el curso y no van por mal camino!
+  </replic>
+  
+  <replic id="19" person="friend">
+	Recuerde, el mar - un elemento peligroso...
+  </replic>
+  
+  <replic id="20" person="friend">
+	Créame, como un antiguo marinero...
+  </replic>
+  
+  <replic id="21" person="natty">
+	Gracias loro!
+  </replic>
+  
+  <replic id="22" person="friend">
+	Y gracias, cuidar de ti mismo!
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

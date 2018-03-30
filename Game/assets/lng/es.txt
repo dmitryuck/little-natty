@@ -1,0 +1,15 @@
+<interface>
+  <ID_PLAY>Jugar</ID_PLAY>
+  <ID_MENU>Menú</ID_MENU>
+  <ID_EXIT>Salida</ID_EXIT>
+  <ID_OPTIONS>Opciones</ID_OPTIONS>
+  <ID_MORE_GAMES>Otros juegos</ID_MORE_GAMES>
+  <ID_OK>Sí</ID_OK>
+  <ID_AGAIN>Otra vez</ID_AGAIN>
+  <ID_NEXT>Además</ID_NEXT>
+  <ID_GAME_OVER>Usted pierde</ID_GAME_OVER>
+  <ID_GAME_WIN>Se pasa de nivel</ID_GAME_WIN>
+  <ID_DESCRIPTION>Little Natty - El nuevo rompecabezas, el personaje principal es una pequeña tortuga, que está buscando a su madre.</ID_DESCRIPTION>
+  <ID_SOUND>Sonidos</ID_SOUND>
+  <ID_MUSIC>Música</ID_MUSIC>
+</interface>

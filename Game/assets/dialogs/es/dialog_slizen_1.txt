@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="natty">
+	Hola sliznyau!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Hola tortuga!
+  </replic>
+  
+  <replic id="2" person="natty">
+	No podskazhesh, donde una cascada cerca de aquí?
+  </replic>
+  
+  <replic id="3" person="friend">
+	Por supuesto!
+  </replic>
+  
+  <replic id="4" person="friend">
+	Una vez que cumplir con mi petición.
+  </replic>
+  
+  <replic id="5" person="natty">
+	Y ¿qué debo hacer?
+  </replic>
+  
+  <replic id="6" person="friend">
+	Tomar una manzana a mi buen amigo, y luego volver aquí!
+  </replic>
+  
+  <replic id="7" person="natty">
+	Bueno, voy a cumplir con su solicitud...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

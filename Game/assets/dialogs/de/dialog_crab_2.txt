@@ -1,0 +1,80 @@
+﻿<dialog>
+  <replic id="0" person="friend">
+	Na endlich!
+  </replic>
+  
+  <replic id="1" person="friend">
+	Ich habe schon angefangen zu denken, dass du nicht kommst...
+  </replic>
+  
+  <replic id="2" person="natty">
+	Mich ist ziemlich schwierig war...
+  </replic>
+  
+  <replic id="3" person="friend">
+	Na was du steht?  schneller!
+  </replic>
+  
+  <replic id="4" person="natty">
+	Das wars, jetzt bist du frei!
+  </replic>
+  
+  <replic id="5" person="friend">
+	Also was kann ich tun, um dir zu helfen.
+  </replic>
+  
+  <replic id="6" person="natty">
+	Du nicht hast hier eine Herde von Schildkröten gesehen?
+  </replic>
+  
+  <replic id="7" person="friend">
+	Nein, ich  war nicht gesehen...
+  </replic>
+  
+  <replic id="8" person="friend">
+	Aber ich kenne, wo sie können sein!
+  </replic>
+  
+  <replic id="9" person="natty">
+	Also sag Wo?
+  </replic>
+  
+  <replic id="10" person="friend">
+	Gehe durch den Forst auf dieser Pfad...
+  </replic>
+  
+  <replic id="11" person="friend">
+	Und du wille ausgehen bis Wasserfall, sie sind wahrscheinlich da draußen!.
+  </replic>
+  
+  <replic id="12" person="natty">
+	Vielen Dank Krab! Vorsicht Falle!
+  </replic>
+  
+  <replic id="13" person="friend">
+	He-he-he, und viel Glück für Schildkröte!
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

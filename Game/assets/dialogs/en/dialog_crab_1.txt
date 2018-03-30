@@ -1,0 +1,80 @@
+﻿<dialog>
+  <replic id="0" person="friend">
+	Hey!
+  </replic>
+  
+  <replic id="1" person="friend">
+	Good, that you walk around here!
+  </replic>
+  
+  <replic id="2" person="friend">
+	Set me free, as soon as possible!
+  </replic>
+  
+  <replic id="3" person="natty">
+	How are you get in trap?
+  </replic>
+  
+  <replic id="4" person="friend">
+	I just walked in the forest and got into this trap!
+  </replic>
+  
+  <replic id="5" person="natty">
+	But how can I help you?
+  </replic>
+  
+  <replic id="6" person="natty">
+	The cage is locked!
+  </replic>
+  
+  <replic id="7" person="friend">
+	You must help me!
+  </replic>
+  
+  <replic id="8" person="friend">
+	I can not sit here ...
+  </replic>
+  
+  <replic id="9" person="natty">
+	I don't have time to open the cage!
+  </replic>
+  
+  <replic id="10" person="natty">
+	I search my mom...
+  </replic>
+  
+  <replic id="11" person="friend">
+	Maybe I can help you with something...
+  </replic>
+  
+  <replic id="12" person="friend">
+	But first, set me free!
+  </replic>
+  
+  <replic id="13" person="natty">
+	Well done, I'll think how can I help you...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="natty">
+	Привет червячек!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Привет черепашка!
+  </replic>
+  
+  <replic id="2" person="natty">
+	Ты мне не подскажешь, где здесь водопад неподалеку?
+  </replic>
+  
+  <replic id="3" person="friend">
+	А чего ж не подсказать то, подскажу, подскажу...
+  </replic>
+  
+  <replic id="4" person="friend">
+	Только ты выполни одно мое маленькое, но очень ответственное поручение.
+  </replic>
+  
+  <replic id="5" person="natty">
+	И что же мне нужно сделать?
+  </replic>
+  
+  <replic id="6" person="friend">
+	Отнеси это яблоко моему хорошему другу, а потом возвращайся сюда!
+  </replic>
+  
+  <replic id="7" person="natty">
+	Хорошо, я выполню твое поручение...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

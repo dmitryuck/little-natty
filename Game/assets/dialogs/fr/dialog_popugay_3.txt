@@ -1,0 +1,116 @@
+<dialog>
+  <replic id="0" person="friend">
+	J'aime les bananes!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Combien de temps je les attendait!
+  </replic>
+  
+  <replic id="2" person="natty">
+	Bananes obtenez lorsque vous me dire!
+  </replic>
+  
+  <replic id="3" person="natty">
+	Alors, où les tortues aller?
+  </replic>
+  
+  <replic id="4" person="friend">
+	Asseyez-vous et écoutez mon histoire...
+  </replic>
+  
+  <replic id="5" person="friend">
+	Était une fois, il ya bien longtemps...
+  </replic>
+  
+  <replic id="6" person="friend">
+	Quand je navigue avec les pirates sur la mer immense...
+  </replic>
+  
+  <replic id="7" person="friend">
+	Plusieurs fois nous avons navigué passé de l'île...
+  </replic>
+  
+  <replic id="8" person="friend">
+	Où il y avait tant de tortues...
+  </replic>
+  
+  <replic id="9" person="friend">
+	C'est tout simplement impossible à mettre en mots...
+  </replic>
+  
+  <replic id="10" person="friend">
+	L'île entière ressemblait à une tortue géante...
+  </replic>
+  
+  <replic id="11" person="friend">
+	L'endroit est appelé "Turtle Island"!
+  </replic>
+  
+  <replic id="12" person="natty">
+	Et comment puis-je y arriver?
+  </replic>
+  
+  <replic id="13" person="friend">
+	Le capitaine de notre navire avait une carte...
+  </replic>
+  
+  <replic id="14" person="friend">
+	Mais une tempête a détruit le navire et la mer a emporté tous les...
+  </replic>
+  
+  <replic id="15" person="friend">
+	Ici, près de la plage, j'ai vu les restes de notre navire...
+  </replic>
+  
+  <replic id="16" person="friend">
+	Trouvez parmi eux la carte et suivez-le "Turtle Island"...
+  </replic>
+  
+  <replic id="17" person="friend">
+	Et il vous rencontrerez avec sa mère!
+  </replic>
+  
+  <replic id="18" person="friend">
+	Il suffit de tenir la direction et ne pas s'égarer!
+  </replic>
+  
+  <replic id="19" person="friend">
+	Rappelez-vous, la mer - un élément dangereux...
+  </replic>
+  
+  <replic id="20" person="friend">
+	Croyez-moi, comme un ancien marin...
+  </replic>
+  
+  <replic id="21" person="natty">
+	Merci perroquet!
+  </replic>
+  
+  <replic id="22" person="friend">
+	Et je vous remercie, être prudent, la tortue!
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

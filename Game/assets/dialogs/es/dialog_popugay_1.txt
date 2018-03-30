@@ -1,0 +1,104 @@
+<dialog>
+  <replic id="0" person="natty">
+	Hola loro!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Hola tortuga!
+  </replic>
+  
+  <replic id="2" person="natty">
+	¡Qué hermosa cascada!
+  </replic>
+  
+  <replic id="3" person="friend">
+	Yo estoy aquí muy a menudo.
+  </replic>
+  
+  <replic id="4" person="friend">
+	Aquí me siento en este árbol y admirar la belleza de estos...
+  </replic>
+  
+  <replic id="5" person="natty">
+	Y usted no ha visto por aquí las tortugas?
+  </replic>
+  
+  <replic id="6" person="friend">
+	Pero, ¿cómo no puede ver, por supuesto, visto ...
+  </replic>
+  
+  <replic id="7" person="friend">
+	Aquí hay un poco tarde...
+  </replic>
+  
+  <replic id="8" person="natty">
+	¿Hasta qué hora? No puede ser ...
+  </replic>
+  
+  <replic id="9" person="friend">
+	¿Qué has perdido?
+  </replic>
+  
+  <replic id="10" person="natty">
+	Sí, estoy buscando a mi madre...
+  </replic>
+  
+  <replic id="11" person="natty">
+	¿Por casualidad sabe hacia dónde la tortuga?
+  </replic>
+  
+  <replic id="12" person="friend">
+	Ya lo sé...
+  </replic>
+  
+  <replic id="13" person="friend">
+	Ayúdame y te ayudaré!
+  </replic>
+  
+  <replic id="14" person="friend">
+	Bueno, ya sabes a qué me refiero?
+  </replic>
+  
+  <replic id="15" person="natty">
+	No, yo no entiendo...
+  </replic>
+  
+  <replic id="16" person="friend">
+	Bueno, voy a decir en pocas palabras, me encuentran algo de beber...
+  </replic>
+  
+  <replic id="17" person="friend">
+	Hace tanto calor, y realmente quiero beber!
+  </replic>
+  
+  <replic id="18" person="friend">
+	Y entonces usted se vea y hable, como debe ser...
+  </replic>
+  
+  <replic id="19" person="natty">
+	Muy bien, estaré de vuelta pronto...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

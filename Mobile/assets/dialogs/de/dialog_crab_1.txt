@@ -1,0 +1,80 @@
+﻿<dialog>
+  <replic id="0" person="friend">
+	Hey, du stopp!
+  </replic>
+  
+  <replic id="1" person="friend">
+	Wie ist schön, was du war in der Nähe!
+  </replic>
+  
+  <replic id="2" person="friend">
+	Hilfe mich schneller...
+  </replic>
+  
+  <replic id="3" person="natty">
+	Was du ist dort macht?
+  </replic>
+  
+  <replic id="4" person="friend">
+	Ich nur gehen auf der Forst und ich sitze in der Falle!
+  </replic>
+  
+  <replic id="5" person="natty">
+	Aber wie ich kann helfe dich?
+  </replic>
+  
+  <replic id="6" person="natty">
+	Weil der Käfig ist geschlossen!
+  </replic>
+  
+  <replic id="7" person="friend">
+	Du musst werde etwas ausdenke!
+  </replic>
+  
+  <replic id="8" person="friend">
+	Ich nicht kann sitze mehr hier...
+  </replic>
+  
+  <replic id="9" person="natty">
+	Ich nicht habe Zeit, dass helfe dich!
+  </replic>
+  
+  <replic id="10" person="natty">
+	Weil Ich suche meine Mutter...
+  </replic>
+  
+  <replic id="11" person="friend">
+	Vielleicht ich will mach etwas für dich, was kann...
+  </replic>
+  
+  <replic id="12" person="friend">
+	Aber freigebt mich!
+  </replic>
+  
+  <replic id="13" person="natty">
+	Okay, ich werde mach etwas...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

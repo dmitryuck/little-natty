@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="natty">
+	Hälsningar Snigel!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Hallå Sköldpadda!
+  </replic>
+  
+  <replic id="2" person="natty">
+	Du vet inte var där är vattenfallet nära?
+  </replic>
+  
+  <replic id="3" person="friend">
+	Ja, jag vet var vattenfallet...
+  </replic>
+  
+  <replic id="4" person="friend">
+	Bara gör vad jag ber dig.
+  </replic>
+  
+  <replic id="5" person="natty">
+	Jag måste göra?
+  </replic>
+  
+  <replic id="6" person="friend">
+	Ta ett äpple och ge det till min vän, och komma tillbaka till mig.
+  </replic>
+  
+  <replic id="7" person="natty">
+	OK, jag gör det...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

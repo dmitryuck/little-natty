@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="natty">
+	Ciao! Get pacchetto!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Da chi inviando questo?
+  </replic> 
+  
+  <replic id="2" person="natty">
+	Il Tuo amico verme!
+  </replic> 
+  
+  <replic id="3" person="friend">
+	Oh, lui, bene, grazie!
+  </replic> 
+  
+  <replic id="4" person="friend">
+	Beh, come segno della mia gratitudine Portare questa pera...
+  </replic> 
+  
+  <replic id="5" person="natty">
+	Dai, non c'è problema!
+  </replic>
+  
+  <replic id="6" person="friend">
+	Buona fortuna!
+  </replic>
+
+  <replic id="7" person="natty">
+	Grazie!
+  </replic>   
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+<interface>
+  <ID_PLAY>Giocare</ID_PLAY>
+  <ID_MENU>Menu</ID_MENU>
+  <ID_EXIT>Uscita</ID_EXIT>
+  <ID_OPTIONS>Opzioni</ID_OPTIONS>
+  <ID_MORE_GAMES>Altri giochi</ID_MORE_GAMES>
+  <ID_OK>Sì</ID_OK>
+  <ID_AGAIN>Di nuovo</ID_AGAIN>
+  <ID_NEXT>Ulteriormente</ID_NEXT>
+  <ID_GAME_OVER>Si perde</ID_GAME_OVER>
+  <ID_GAME_WIN>Il livello è passato</ID_GAME_WIN>
+  <ID_DESCRIPTION>Little Natty - Un nuovo gioco di puzzle in genere una piccola tartaruga, che è alla ricerca di sua madre...</ID_DESCRIPTION>
+  <ID_SOUND>Suoni</ID_SOUND>
+  <ID_MUSIC>Musica</ID_MUSIC>
+</interface>

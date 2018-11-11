@@ -1,0 +1,56 @@
+﻿<dialog>
+  <replic id="0" person="natty">
+	Greetings snail!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Hello Turtle!
+  </replic>
+  
+  <replic id="2" person="natty">
+	Can you tell me where is the waterfall?
+  </replic>
+  
+  <replic id="3" person="friend">
+	Of course i know, but I will say...
+  </replic>
+  
+  <replic id="4" person="friend">
+	When you help me, and make a very important mission.
+  </replic>
+  
+  <replic id="5" person="natty">
+	And what should I do?
+  </replic>
+  
+  <replic id="6" person="friend">
+	Take this apple and give it to my good friend Worm, and then come back here!
+  </replic>
+  
+  <replic id="7" person="natty">
+	Ok, I'll do it...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

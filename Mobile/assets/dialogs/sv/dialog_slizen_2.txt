@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="natty">
+	Hej! Du har en gåva!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Vem gav den till mig?
+  </replic> 
+  
+  <replic id="2" person="natty">
+	Din vän Snail!
+  </replic> 
+  
+  <replic id="3" person="friend">
+	Åh, honom väl, tack vare dig!
+  </replic> 
+  
+  <replic id="4" person="friend">
+	Tja, som ett tecken på min tacksamhet att ge honom ett päron...
+  </replic> 
+  
+  <replic id="5" person="natty">
+	Kom igen, inga problem!
+  </replic>
+  
+  <replic id="6" person="friend">
+	Lycka till!
+  </replic>
+
+  <replic id="7" person="natty">
+	Och du lycka till!
+  </replic>   
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

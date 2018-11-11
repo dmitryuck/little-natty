@@ -1,0 +1,104 @@
+<dialog>
+  <replic id="0" person="natty">
+	Dobrý den, papoušek!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Dobrý den, želva!
+  </replic>
+  
+  <replic id="2" person="natty">
+	Jaký krásný vodopád!
+  </replic>
+  
+  <replic id="3" person="friend">
+	Jo ... Jsem tu docela často.
+  </replic>
+  
+  <replic id="4" person="friend">
+	Tady sedím na stromě a obdivovat krásu těchto...
+  </replic>
+  
+  <replic id="5" person="natty">
+	A vy jste ještě neviděli tu želvy?
+  </replic>
+  
+  <replic id="6" person="friend">
+	Určitě vidět!
+  </replic>
+  
+  <replic id="7" person="friend">
+	Zde je jen trochu pozdě ty...
+  </replic>
+  
+  <replic id="8" person="natty">
+	Jak pozdě? To nemůže být...
+  </replic>
+  
+  <replic id="9" person="friend">
+	Co jste ztratili?
+  </replic>
+  
+  <replic id="10" person="natty">
+	Ano, já hledám pro mou matku...
+  </replic>
+  
+  <replic id="11" person="natty">
+	Nevíte náhodou vědět, kam šli?
+  </replic>
+  
+  <replic id="12" person="friend">
+	Co nevím, samozřejmě vím...
+  </replic>
+  
+  <replic id="13" person="friend">
+	Pomozte mi a já ti pomůžu!
+  </replic>
+  
+  <replic id="14" person="friend">
+	No, víte, co tím myslím?
+  </replic>
+  
+  <replic id="15" person="natty">
+	Ne, nerozumím...
+  </replic>
+  
+  <replic id="16" person="friend">
+	No, řeknu v krátkosti, najdi mi něco k pití...
+  </replic>
+  
+  <replic id="17" person="friend">
+	A tady je tak horký!
+  </replic>
+  
+  <replic id="18" person="friend">
+	A pak ať se bavit o všem!
+  </replic>
+  
+  <replic id="19" person="natty">
+	Dobře, budu brzy...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

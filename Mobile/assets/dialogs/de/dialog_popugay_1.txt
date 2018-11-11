@@ -1,0 +1,104 @@
+﻿<dialog>
+  <replic id="0" person="natty">
+	Hello Papagei!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Hello Schildkröte!
+  </replic>
+  
+  <replic id="2" person="natty">
+	Welcher schöner der Wasserfall!
+  </replic>
+  
+  <replic id="3" person="friend">
+	Ja... Ich oft bin hier.
+  </replic>
+  
+  <replic id="4" person="friend">
+	Hier habe auf diesen Baum sitzen, und ich bewundere die Schönheit dieser Landschaft.
+  </replic>
+  
+  <replic id="5" person="natty">
+	Und du hast nicht hier in der Gegend Schildkröten gesehen?
+  </replic>
+  
+  <replic id="6" person="friend">
+	Aber wie haben nicht gesehen, sicherlich gesehen... 
+  </replic>
+  
+  <replic id="7" person="friend">
+	Aber du ein wenig spät...
+  </replic>
+  
+  <replic id="8" person="natty">
+	Warum ich späte? Das ist unglaublich...
+  </replic>
+  
+  <replic id="9" person="friend">
+	Du verlorst etwas?
+  </replic>
+  
+  <replic id="10" person="natty">
+	Ja, ich suche meine Mutter...
+  </replic>
+  
+  <replic id="11" person="natty">
+	Du nicht kennst zufällig, wohin sie gehen?
+  </replic>
+  
+  <replic id="12" person="friend">
+	Warum ich nicht kenne, sicherlich kenne...
+  </replic>
+  
+  <replic id="13" person="friend">
+	Aber du musst macht mich ein Gefallen!
+  </replic>
+  
+  <replic id="14" person="friend">
+	Na du weißt?
+  </replic>
+  
+  <replic id="15" person="natty">
+	Nein, ich nicht verstehe...
+  </replic>
+  
+  <replic id="16" person="friend">
+	Gut, sage kurz, findet mich etwas trinke...
+  </replic>
+  
+  <replic id="17" person="friend">
+	Hier so heiß, ich habe ein Durst...
+  </replic>
+  
+  <replic id="18" person="friend">
+	Nachher wir will sagst, wie erwartet...
+  </replic>
+  
+  <replic id="19" person="natty">
+	Ok, ich rasch zurück...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

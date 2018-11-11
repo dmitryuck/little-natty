@@ -121,18 +121,10 @@ package game.core
 		{			
 			if (Project.isGame())
 			{
-				display.removeChild(scene);	
+				display.removeChild(scene);				
 				
-				var ba:ByteArray = new Source(fileName).getSource();
-				
-				var str:String = ba.readUTFBytes(ba.length);
-				
-				var xml:XML = new XML(str);
-				trace(xml);
-				/*var xmlScene:XML = new XML();				
-				
+				var xmlScene:XML = new XML(new Source(fileName).getSource());
 				var script:String = xmlScene.@script;
-				trace(script);
 				
 				var sceneClass:Class;
 				
@@ -140,7 +132,7 @@ package game.core
 				
 				scene = new (sceneClass ? sceneClass : Scene) (fileName);
 				
-				display.addChildAt(scene, 0);*/
+				display.addChildAt(scene, 0);
 				
 			} else if (Project.isEditor()) scene.loadScene(fileName);
 		}		

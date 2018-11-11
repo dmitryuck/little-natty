@@ -1,0 +1,80 @@
+<dialog>
+  <replic id="0" person="friend">
+	Eh bien, finalement!
+  </replic>
+  
+  <replic id="1" person="friend">
+	J'ai déjà commencé à penser que vous ne venez pas...
+  </replic>
+  
+  <replic id="2" person="natty">
+	J'ai eu assez difficile de trouver la clé...
+  </replic>
+  
+  <replic id="3" person="friend">
+	Eh bien, ce que vous représentez? Ouvrez la cage bientôt!
+  </replic>
+  
+  <replic id="4" person="natty">
+	Ça y est, maintenant, vous êtes libre!
+  </replic>
+  
+  <replic id="5" person="friend">
+	Alors, que puis-je vous aider?
+  </replic>
+  
+  <replic id="6" person="natty">
+	Vous n'avez pas vu ici un troupeau de tortues?
+  </replic>
+  
+  <replic id="7" person="friend">
+	Non, je n'ai pas vu ...
+  </replic>
+  
+  <replic id="8" person="friend">
+	Mais je sais où ils peuvent être!
+  </replic>
+  
+  <replic id="9" person="natty">
+	Vraiment? Où est-il?
+  </replic>
+  
+  <replic id="10" person="friend">
+	Suivez ce chemin à travers les bois...
+  </replic>
+  
+  <replic id="11" person="friend">
+	Vous venez à la cascade, je suis sûr qu'ils sont là!
+  </replic>
+  
+  <replic id="12" person="natty">
+	Merci de crabe! Méfiez-vous des pièges!
+  </replic>
+  
+  <replic id="13" person="friend">
+	Heh-heh-heh, bonne chance à vous la tortue!
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

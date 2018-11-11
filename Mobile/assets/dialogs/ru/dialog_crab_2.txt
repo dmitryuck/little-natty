@@ -1,0 +1,80 @@
+<dialog>
+  <replic id="0" person="friend">
+	Ну наконец-то!
+  </replic>
+  
+  <replic id="1" person="friend">
+	Я уже стал думать, что ты не придешь...
+  </replic>
+  
+  <replic id="2" person="natty">
+	Изрядно мне пришлось повозиться, чтобы найти этот ключ...
+  </replic>
+  
+  <replic id="3" person="friend">
+	Ну что стоишь? Открывай скорей клетку!
+  </replic>
+  
+  <replic id="4" person="natty">
+	Вот и все, теперь ты свободен!
+  </replic>
+  
+  <replic id="5" person="friend">
+	Так чем же я могу тебе помочь?
+  </replic>
+  
+  <replic id="6" person="natty">
+	Ты не видел здесь поблизости стаю черепах?
+  </replic>
+  
+  <replic id="7" person="friend">
+	Нет, не видел...
+  </replic>
+  
+  <replic id="8" person="friend">
+	Но я знаю, где они могут быть!
+  </replic>
+  
+  <replic id="9" person="natty">
+	Неужели? Где же?
+  </replic>
+  
+  <replic id="10" person="friend">
+	Иди через лес по этой тропинке...
+  </replic>
+  
+  <replic id="11" person="friend">
+	И выйдеш к водопаду, они, вероятно, там!
+  </replic>
+  
+  <replic id="12" person="natty">
+	Спасибо тебе краб! Берегись ловушек!
+  </replic>
+  
+  <replic id="13" person="friend">
+	Хе-хе-хе, и тебе удачи черепаха!
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -13,6 +13,8 @@ package user
 	import game.ui.Text;
 	import game.ui.Window;
 	
+	import com.appodeal.aneplugin.*;
+	
 	/**
 	 * ...
 	 * @author Monkgol
@@ -48,7 +50,9 @@ package user
 			addComponent(new Position(319, 183), "nattyReplic", new Text("", Main.dialogTextStyle));
 			addComponent(new Position(412, 49), "friendReplic", new Text("", Main.dialogTextStyle));
 			
-			showReplic();			
+			showReplic();
+			
+			Main.appodeal.show(Appodeal.BANNER_BOTTOM);
 		}
 		
 		// Говорит Натти
@@ -105,6 +109,8 @@ package user
 		// Диалог завершен
 		public function endDialog():void
 		{
+			Main.appodeal.hide(Appodeal.BANNER_BOTTOM);
+			
 			Scene15(Game.scene).canComplete = true;
 			
 			Exit(Game.scene.getObjectByTag("exit")).open();

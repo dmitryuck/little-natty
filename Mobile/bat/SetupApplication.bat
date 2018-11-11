@@ -10,6 +10,7 @@
 set AND_CERT_NAME="Mobile"
 set AND_CERT_PASS=fd
 set AND_CERT_FILE=cert\android.p12
+
 set AND_ICONS=icons/android
 
 set AND_SIGNING_OPTIONS=-storetype pkcs12 -keystore "%AND_CERT_FILE%" -storepass %AND_CERT_PASS%
@@ -17,7 +18,7 @@ set AND_SIGNING_OPTIONS=-storetype pkcs12 -keystore "%AND_CERT_FILE%" -storepass
 :: iOS packaging
 set IOS_DIST_CERT_FILE=cert\ios_distribution.p12
 set IOS_DEV_CERT_FILE=cert\ios_development.p12
-set IOS_DEV_CERT_PASS=AligatoR
+set IOS_DEV_CERT_PASS=pass
 set IOS_PROVISION=cert\LittleNatty_Development.mobileprovision
 set IOS_ICONS=icons/ios
 
@@ -32,14 +33,14 @@ set APP_DIR=bin
 set FILE_OR_DIR=-C %APP_DIR% .
 
 :: Your application ID (must match <id> of Application descriptor)
-set APP_ID=com.feromonstudio.littlenatty
+set APP_ID=com.littlenatty
 
 :: Output packages
 set DIST_PATH=dist
 set DIST_NAME=Mobile
 
 :: Debugging using a custom IP
-set DEBUG_IP=
+set DEBUG_IP=127.0.0.1
 
 
 

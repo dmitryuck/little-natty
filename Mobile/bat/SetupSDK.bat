@@ -1,10 +1,10 @@
 :user_configuration
 
 :: Path to Flex SDK
-set FLEX_SDK=C:\Program Files\FlashDevelop\Tools\flexsdk
+set FLEX_SDK=C:\Users\mon\AppData\Local\FlashDevelop\Apps\flexairsdk\4.6.0+29.0.0
 
 :: Path to Android SDK
-set ANDROID_SDK=C:\Program Files\FlashDevelop\Tools\android
+set ANDROID_SDK=C:\Android\Sdk
 
 
 :validation

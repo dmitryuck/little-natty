@@ -1,0 +1,15 @@
+<interface>
+  <ID_PLAY>Играть</ID_PLAY>
+  <ID_MENU>Меню</ID_MENU>
+  <ID_EXIT>Выход</ID_EXIT>
+  <ID_OPTIONS>Опции</ID_OPTIONS>
+  <ID_MORE_GAMES>Другие игры</ID_MORE_GAMES>
+  <ID_OK>Ok</ID_OK>
+  <ID_AGAIN>Заново</ID_AGAIN>
+  <ID_NEXT>Дальше</ID_NEXT>
+  <ID_GAME_OVER>Вы проиграли</ID_GAME_OVER>
+  <ID_GAME_WIN>Уровень пройден</ID_GAME_WIN>
+  <ID_DESCRIPTION>Little Natty - Новая игра в жанре пазл о маленькой черепашке, которая ищет свою маму и ей нужна ваша помощь!</ID_DESCRIPTION>
+  <ID_SOUND>Звуки</ID_SOUND>
+  <ID_MUSIC>Музыка</ID_MUSIC>
+</interface>

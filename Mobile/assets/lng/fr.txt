@@ -1,0 +1,15 @@
+<interface>
+  <ID_PLAY>Jouer</ID_PLAY>
+  <ID_MENU>Menu</ID_MENU>
+  <ID_EXIT>Sortie</ID_EXIT>
+  <ID_OPTIONS>Options</ID_OPTIONS>
+  <ID_MORE_GAMES>Plus de jeux</ID_MORE_GAMES>
+  <ID_OK>Oui</ID_OK>
+  <ID_AGAIN>Encore</ID_AGAIN>
+  <ID_NEXT>Plus</ID_NEXT>
+  <ID_GAME_OVER>Vous perdez</ID_GAME_OVER>
+  <ID_GAME_WIN>Le niveau est passé</ID_GAME_WIN>
+  <ID_DESCRIPTION>Little Natty - Le nouveau casse-tête, le personnage principal est une petite tortue, qui est à la recherche de sa mère.</ID_DESCRIPTION>
+  <ID_SOUND>Sons</ID_SOUND>
+  <ID_MUSIC>Musique</ID_MUSIC>
+</interface>

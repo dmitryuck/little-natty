@@ -1,0 +1,56 @@
+﻿<dialog>
+  <replic id="0" person="natty">
+	Hi there! You have a present!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Who make a present to me?
+  </replic> 
+  
+  <replic id="2" person="natty">
+	Snail make a present to you!
+  </replic> 
+  
+  <replic id="3" person="friend">
+	Oh, him, well, thank you!
+  </replic> 
+  
+  <replic id="4" person="friend">
+	And I want show one's gratitude to my friend Snail, give pear to him...
+  </replic> 
+  
+  <replic id="5" person="natty">
+	Ok, no problem!
+  </replic>
+  
+  <replic id="6" person="friend">
+	Good luck!
+  </replic>
+
+  <replic id="7" person="natty">
+	Thank you Worm!
+  </replic>   
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

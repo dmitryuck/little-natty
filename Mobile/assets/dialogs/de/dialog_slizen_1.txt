@@ -1,0 +1,56 @@
+﻿<dialog>
+  <replic id="0" person="natty">
+	Hallo, Wurm!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Hallo Schildkröte!
+  </replic>
+  
+  <replic id="2" person="natty">
+	Bitte mir sag, wo ist der Wasserfall in der Nähe.
+  </replic>
+  
+  <replic id="3" person="friend">
+	Gewiss ich werde sag...
+  </replic>
+  
+  <replic id="4" person="friend">
+	Nur Ich habe einen Job fuer dich.
+  </replic>
+  
+  <replic id="5" person="natty">
+	Was du wollen Sie?
+  </replic>
+  
+  <replic id="6" person="friend">
+	Du musst wirst bringt der Apfel, für mein Freund, und dann du komm wieder her!
+  </replic>
+  
+  <replic id="7" person="natty">
+	Okay, ich werde macht dein Job ...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

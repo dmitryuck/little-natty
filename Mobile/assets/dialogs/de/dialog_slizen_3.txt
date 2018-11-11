@@ -1,0 +1,56 @@
+﻿<dialog>
+  <replic id="0" person="friend">
+	Oh, du bist es wieder...
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Du war gemacht, was ich dich zu fragt?
+  </replic> 
+  
+  <replic id="2" person="natty">
+	Ja, er ist sehr dankbar und im Gegenzug sendet dich diese Birne...
+  </replic> 
+  
+  <replic id="3" person="friend">
+	Vielen Dank Schildkröte, ich war weiß, dass dich vertrauen können...
+  </replic>
+  
+  <replic id="4" person="natty">
+	Wie Ich kann gehe zum Wasserfall?
+  </replic> 
+  
+  <replic id="5" person="friend">
+	Ist Pfad, er kommt direkt zum Wasserfall!
+  </replic> 
+  
+  <replic id="6" person="natty">
+	Danke, Wurm!
+  </replic> 
+  
+  <replic id="7" person="friend">
+	Glück Schildkröte!
+  </replic> 
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

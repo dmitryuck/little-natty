@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="natty">
+	Привет! Тебе посылка!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	От кого же мне эта посылка то?
+  </replic> 
+  
+  <replic id="2" person="natty">
+	От твоего друга червячка!
+  </replic> 
+  
+  <replic id="3" person="friend">
+	Ах, от него, ну спасибо тебе!
+  </replic> 
+  
+  <replic id="4" person="friend">
+	Ну а в знак моей благодарности передай ему эту грушу...
+  </replic> 
+  
+  <replic id="5" person="natty">
+	Давай, без проблем!
+  </replic>
+  
+  <replic id="6" person="friend">
+	Удачи тебе, и легкого пути!
+  </replic>
+
+  <replic id="7" person="natty">
+	Спасибо тебе, червячек!
+  </replic>   
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

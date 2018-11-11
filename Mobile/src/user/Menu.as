@@ -22,7 +22,6 @@ package user
 		public var menuWnd:Window;
 		public var optionsWnd:Window;
 		
-		
 		public function Menu(sourceFile:String)
 		{
 			super(sourceFile);			
@@ -55,23 +54,23 @@ package user
 			
 			menuWnd.addComponent(new Position(520, 132), "btn_play", new Button("graphics/interface/button_menu.swf", "graphics/interface/button_menu_down.swf", onPlayClick, new Text(Translit.getString("ID_PLAY"), style)));
 			menuWnd.addComponent(new Position(520, 190), "btn_options", new Button("graphics/interface/button_menu.swf", "graphics/interface/button_menu_down.swf", onOptionsClick, new Text(Translit.getString("ID_OPTIONS"), style)));
-			menuWnd.addComponent(new Position(520, 248), "btn_more", new Button("graphics/interface/button_menu.swf", "graphics/interface/button_menu_down.swf", onMoreClick, new Text(Translit.getString("ID_MORE_GAMES"),style)));
+			menuWnd.addComponent(new Position(520, 248), "btn_more", new Button("graphics/interface/button_menu.swf", "graphics/interface/button_menu_down.swf", onMoreClick, new Text(Translit.getString("ID_RESET"),style)));
 			menuWnd.addComponent(new Position(520, 306), "btn_exit", new Button("graphics/interface/button_menu.swf", "graphics/interface/button_menu_down.swf", onExitClick, new Text(Translit.getString("ID_EXIT"), style)));
 		
 			// Расшарить
-			menuWnd.addComponent(new Position(265, 390), "btn_tweet", new Button("graphics/interface/tweet.swf", null, onTweetClick));
+			menuWnd.addComponent(new Position(265, 320), "btn_tweet", new Button("graphics/interface/tweet.swf", null, onTweetClick));
 			menuWnd.addComponent(new Position(402, 318), "btn_facebook", new Button("graphics/interface/facebook.swf", null, onFacebookClick));
 			
 			function onTweetClick():void
 			{
 				Audio.playSound("sounds/share.mp3");
-				Utils.shareTo("twitter", Translit.getString("ID_DESCRIPTION"), "http://feromonstudio.pp.ua/games/natty/index.html?lng=" + Translit.currentLng, "Little Natty");
+				Utils.shareTo("twitter", Translit.getString("ID_DESCRIPTION"), Main.gameUrl, "Little Natty");
 			}
 			
 			function onFacebookClick():void
 			{
-				Audio.playSound("sounds/share.mp3");				
-				Utils.shareTo("facebook", Translit.getString("ID_DESCRIPTION"), "http://feromonstudio.pp.ua/games/natty/index.html?lng=" + Translit.currentLng, "Little Natty");
+				Audio.playSound("sounds/share.mp3");
+				Utils.shareTo("facebook", Translit.getString("ID_DESCRIPTION"), Main.gameUrl, "Little Natty");
 			}
 			
 			function onPlayClick():void
@@ -82,7 +81,7 @@ package user
 				Main.showLoading();
 				
 				var lastScene:String = Game.load("scene");
-				
+
 				if (!lastScene) lastScene = "level_1";
 				if (lastScene == "level_26") lastScene = "level_1";
 				
@@ -157,7 +156,8 @@ package user
 			function onMoreClick():void
 			{
 				Audio.playSound("sounds/click.mp3");
-				Utils.goTo("http://feromonstudio.pp.ua/games.html?lng=" + Translit.currentLng);
+				// Utils.goTo("http://feromonstudio.pp.ua/games.html?lng=" + Translit.currentLng);
+				Game.save("scene", "level_1");
 			}
 			
 			function onExitClick():void

@@ -1,0 +1,80 @@
+<dialog>
+  <replic id="0" person="friend">
+	No, konečně!
+  </replic>
+  
+  <replic id="1" person="friend">
+	Už jsem začal přemýšlet, že nechcete přijít...
+  </replic>
+  
+  <replic id="2" person="natty">
+	Měl jsem dost složité najít klíč...
+  </replic>
+  
+  <replic id="3" person="friend">
+	Co koukáš? Objevte rychlý pasti!
+  </replic>
+  
+  <replic id="4" person="natty">
+	To je ono, teď jsi zdarma!
+  </replic>
+  
+  <replic id="5" person="friend">
+	Takže to, co pro vás mohu udělat?
+  </replic>
+  
+  <replic id="6" person="natty">
+	Jste ho ještě neviděli tu stádo želvy?
+  </replic>
+  
+  <replic id="7" person="friend">
+	Ne, ještě neviděl...
+  </replic>
+  
+  <replic id="8" person="friend">
+	Ale já vím, kde mohou být!
+  </replic>
+  
+  <replic id="9" person="natty">
+	Opravdu? Kde je?
+  </replic>
+  
+  <replic id="10" person="friend">
+	Jděte lesem na této cestě...
+  </replic>
+  
+  <replic id="11" person="friend">
+	A ty půjdeš k vodopádu, oni jsou pravděpodobně tam!
+  </replic>
+  
+  <replic id="12" person="natty">
+	Děkuji vám kraba! Dejte si pozor na pasti!
+  </replic>
+  
+  <replic id="13" person="friend">
+	Heh-heh-heh, hodně štěstí pro vás želva!
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

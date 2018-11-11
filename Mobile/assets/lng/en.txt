@@ -1,0 +1,15 @@
+﻿<interface>
+  <ID_PLAY>Play</ID_PLAY>
+  <ID_MENU>Menu</ID_MENU>
+  <ID_EXIT>Exit</ID_EXIT>
+  <ID_OPTIONS>Options</ID_OPTIONS>
+  <ID_MORE_GAMES>More Games</ID_MORE_GAMES>
+  <ID_OK>Ok</ID_OK>
+  <ID_AGAIN>Again</ID_AGAIN>
+  <ID_NEXT>Next</ID_NEXT>
+  <ID_GAME_OVER>You lose</ID_GAME_OVER>
+  <ID_GAME_WIN>Level completed</ID_GAME_WIN>
+  <ID_DESCRIPTION>Little Natty - The New puzzle game about a small turtle, which is looking for her mom, she needs your help!</ID_DESCRIPTION>
+  <ID_SOUND>Sounds</ID_SOUND>
+  <ID_MUSIC>Music</ID_MUSIC>
+</interface>

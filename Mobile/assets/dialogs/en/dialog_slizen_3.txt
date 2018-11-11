@@ -1,0 +1,56 @@
+﻿<dialog>
+  <replic id="0" person="friend">
+	Oh, it's you again...
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Well, you did it, what I asked you to?
+  </replic> 
+  
+  <replic id="2" person="natty">
+	Yeah, he is very grateful, and sends you this pear...
+  </replic> 
+  
+  <replic id="3" person="friend">
+	Thank you Turtle, I know that I can trust you...
+  </replic> 
+  
+  <replic id="4" person="natty">
+	So, where can I find the waterfall?
+  </replic> 
+  
+  <replic id="5" person="friend">
+	There's a trail, go through it and come out straight to the waterfall!
+  </replic> 
+  
+  <replic id="6" person="natty">
+	Thank you Snail!
+  </replic> 
+  
+  <replic id="7" person="friend">
+	Good luck Turtle!
+  </replic> 
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

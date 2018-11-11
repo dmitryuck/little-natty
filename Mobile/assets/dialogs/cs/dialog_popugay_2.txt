@@ -1,0 +1,88 @@
+<dialog>
+  <replic id="0" person="natty">
+	Tady je papoušek, váš rozkaz!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Jo, to je přesně to, co potřebuji teď!
+  </replic>
+  
+  <replic id="2" person="friend">
+	A ty, jak vidím, velmi chytrý...
+  </replic>
+  
+  <replic id="3" person="natty">
+	Takže to, co jste chtěli, abych řekl?
+  </replic>
+  
+  <replic id="4" person="friend">
+	Nic!
+  </replic>
+  
+  <replic id="5" person="natty">
+	Papoušek, slíbil jsi!
+  </replic>
+  
+  <replic id="6" person="friend">
+	Jo, jo, jo, je připomínán...
+  </replic>
+  
+  <replic id="7" person="friend">
+	Ale musím vás jeden malý dotaz...
+  </replic>
+  
+  <replic id="8" person="natty">
+	Pouze jeden!
+  </replic>
+  
+  <replic id="9" person="friend">
+	Ano, ano, samozřejmě...
+  </replic>
+  
+  <replic id="10" person="natty">
+	Co ještě?
+  </replic>
+  
+  <replic id="11" person="friend">
+	Mám rád banány...
+  </replic>
+  
+  <replic id="12" person="friend">
+	No, alespoň pár...
+  </replic>
+  
+  <replic id="13" person="natty">
+	No, pokud něco jiného...
+  </replic>
+  
+  <replic id="14" person="natty">
+	Dejte si pozor!
+  </replic>
+  
+  <replic id="15" person="friend">
+	Jasně, jsem uvědomil...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="natty">
+	Bonjour limace!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Bonjour tortue!
+  </replic>
+  
+  <replic id="2" person="natty">
+	Vous n'avez pas podskazhesh, où une chute d'eau près d'ici?
+  </replic>
+  
+  <replic id="3" person="friend">
+	Bien sûr, je sais où la chute d'eau!
+  </replic>
+  
+  <replic id="4" person="friend">
+	Mais tout d'abord m'acquitter de ma tâche.
+  </replic>
+  
+  <replic id="5" person="natty">
+	Et que dois-je faire?
+  </replic>
+  
+  <replic id="6" person="friend">
+	Prenez une pomme à mon bon ami, et puis revenir ici!
+  </replic>
+  
+  <replic id="7" person="natty">
+	C'est bon!
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

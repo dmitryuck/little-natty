@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="natty">
+	Dobrý den, slimák!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Dobrý den, želva!
+  </replic>
+  
+  <replic id="2" person="natty">
+	Nemusíte podskazhesh, kde vodopád nedaleko odsud?
+  </replic>
+  
+  <replic id="3" person="friend">
+	Ano, řeknu vám, kde vodopád!
+  </replic>
+  
+  <replic id="4" person="friend">
+	Pro tebe budu mít jednu důležitou misi...
+  </replic>
+  
+  <replic id="5" person="natty">
+	A co mám dělat?
+  </replic>
+  
+  <replic id="6" person="friend">
+	Dej to jablko mého dobrého přítele, a pak se zpátky!
+  </replic>
+  
+  <replic id="7" person="natty">
+	No, budu plnit svůj požadavek...
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

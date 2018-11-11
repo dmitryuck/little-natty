@@ -1,10 +1,15 @@
 package game.core 
 {
 	import flash.events.Event;
+	import flash.filesystem.File;
+	import flash.filesystem.FileStream;
 	import flash.media.Sound;
 	import flash.media.SoundChannel;
 	import flash.net.URLStream;
 	import flash.utils.ByteArray;
+	
+	import game.utils.Utils;
+	
 	/**
 	 * ...
 	 * @author Monkgol
@@ -25,19 +30,18 @@ package game.core
 		
 		// Проиграть звук
 		public static function playSound(fileName:String, onComplete:Function = null):void
-		{
+		{			
 			if (canSoundPlay)
 			{
 				var source:Source = new Source(fileName);
 				
 				var byteArray:ByteArray = new ByteArray();
-				byteArray = source.getSource();
-				
+				byteArray = source.getSource();				
 				byteArray.position = 0;
 				
 				var sound:Sound = new Sound();			
 				
-				sound.loadCompressedDataFromByteArray(byteArray, byteArray.length);			
+				sound.loadCompressedDataFromByteArray(byteArray, byteArray.length);
 				
 				var soundChannel:SoundChannel = sound.play();				
 				soundChannel.addEventListener(Event.SOUND_COMPLETE, onPlayingComplete);
@@ -92,15 +96,14 @@ package game.core
 			stopMusic();
 			
 			if (canMusicPlay)
-			{			
+			{
 				var source:Source = new Source(fileName);
 				
 				var byteArray:ByteArray = new ByteArray();
-				byteArray = source.getSource();
-				
+				byteArray = source.getSource();				
 				byteArray.position = 0;
 				
-				var sound:Sound = new Sound();			
+				var sound:Sound = new Sound();		
 				
 				sound.addEventListener(Event.SOUND_COMPLETE, onPlayingComplete);
 				sound.loadCompressedDataFromByteArray(byteArray, byteArray.length);
@@ -108,7 +111,7 @@ package game.core
 				if (!musicChannel) musicChannel = new SoundChannel();
 				
 				musicChannel = sound.play(0, loop ? 10 : 0);
-				
+				// Utils.showToast(musicChannel.toString());
 				function onPlayingComplete(e:Event):void
 				{
 					if (onComplete) onComplete();

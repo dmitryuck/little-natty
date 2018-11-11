@@ -24,12 +24,15 @@ package user
 			
 			canComplete = true;			
 			
-			var slides:Window = Game.loadWindow(new Position(), "slides", Slides, "graphics/comix/int_1.swf");
 		}
 		
 		override protected function onCreate(e:SceneEvent):void 
 		{
 			super.onCreate(e);			
+
+			Main.showLoading();
+			
+			var slides:Window = Game.loadWindow(new Position(), "slides", Slides, "graphics/comix/int_1.swf");
 			
 			Main.loadInterface();
 			

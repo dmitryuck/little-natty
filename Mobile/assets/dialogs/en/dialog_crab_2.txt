@@ -1,0 +1,80 @@
+﻿<dialog>
+  <replic id="0" person="friend">
+	Finally!
+  </replic>
+  
+  <replic id="1" person="friend">
+	I have thought, that you do not come back...
+  </replic>
+  
+  <replic id="2" person="natty">
+	It was not easy to find the key...
+  </replic>
+  
+  <replic id="3" person="friend">
+	Well done, and now open the cage. Please!
+  </replic>
+  
+  <replic id="4" person="natty">
+	That's it, now you're free!
+  </replic>
+  
+  <replic id="5" person="friend">
+	Can I help you?
+  </replic>
+  
+  <replic id="6" person="natty">
+	Have you seen around here a flock of turtles?
+  </replic>
+  
+  <replic id="7" person="friend">
+	No, I did not see...
+  </replic>
+  
+  <replic id="8" person="friend">
+	But I know where they can be!
+  </replic>
+  
+  <replic id="9" person="natty">
+	Really? Where they are?
+  </replic>
+  
+  <replic id="10" person="friend">
+	You must go through the forest, and go through the trail...
+  </replic>
+  
+  <replic id="11" person="friend">
+	You will see the  waterfall, they must be there!
+  </replic>
+  
+  <replic id="12" person="natty">
+	Thank you Сrab! Beware of traps!
+  </replic>
+  
+  <replic id="13" person="friend">
+	He-he-he, good luck to you and your kinsfolk!
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

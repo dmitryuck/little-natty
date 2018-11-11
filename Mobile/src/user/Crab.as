@@ -24,7 +24,7 @@ package user
 		
 		// Старт диалога
 		public static function showDialog():void
-		{
+		{			
 			var currentSceneClass:Class = Main.getCurrentSceneClass();
 			if (currentSceneClass(Game.scene).canComplete || Game.findWindow("dialog")) return;
 			

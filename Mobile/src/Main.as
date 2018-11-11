@@ -19,6 +19,8 @@ package
 	import game.ui.Text;
 	import game.ui.Window;
 	
+	import com.appodeal.aneplugin.*;
+	
 	import user.*;
 	import game.core.*;
 	/**
@@ -32,6 +34,14 @@ package
 		//[Embed(source="C:\\WINDOWS\\Fonts\\Calibri.ttf", fontName="ArialUnicodeMS",  mimeType="application/x-font")]       
 		//public static var ArialUnicodeMS:Class;
 		
+		public static var gameUrl:String = "https://play.google.com/store/apps/details?id=air.com.littlenatty";
+		
+		public static var appodeal: Appodeal = new Appodeal();
+		private static var appKey: String = "b6fedadd7136984e32abeea9a358036645ccc231d9cdd65c";
+		private static var adTypes: int = Appodeal.BANNER_BOTTOM | Appodeal.REWARDED_VIDEO | Appodeal.INTERSTITIAL;
+		
+		private static var loadingWnd:Window;
+
 		public static var selectedFruit1:GameObject;
 		public static var selectedFruit2:GameObject;
 		
@@ -59,6 +69,11 @@ package
 		
 		public function Main():void 
 		{
+			appodeal.initialize(appKey, adTypes);
+			appodeal.setTesting(true);
+			
+			appodeal.show(Appodeal.BANNER_BOTTOM);
+			
 			stage.scaleMode = StageScaleMode.NO_SCALE;
 			stage.align = StageAlign.TOP_LEFT;
 			
@@ -107,6 +122,8 @@ package
 		// Загрузить игровой интерфейс
 		public static function loadInterface():void
 		{
+			appodeal.hide(Appodeal.BANNER_BOTTOM);
+			
 			if (Game.scene.getCurrentScene() != "level_1") Audio.playMusic("sounds/game_music.mp3", true);
 			
 			interfaceWnd = Game.loadWindow(new Position(), "interface", Interface, null);
@@ -181,6 +198,8 @@ package
 		// Уровень проигран
 		public static function gameOver():void
 		{
+			appodeal.show(Appodeal.INTERSTITIAL);
+			
 			fruitsActive = false;
 			
 			Audio.playMusic("sounds/level_over.mp3");
@@ -239,7 +258,11 @@ package
 		// Уровень пройден
 		public static function levelCompleted():void
 		{
+			appodeal.show(Appodeal.INTERSTITIAL);
+			
 			fruitsActive = false;
+			
+			Audio.stopAllSounds();
 			
 			if (Game.scene.getCurrentScene() == "level_25")
 			{
@@ -294,7 +317,11 @@ package
 					
 					showLoading();
 					
-					Game.nextScene();				
+					// Game.nextScene();
+					
+					var currentSceneNum:int = Game.calculateScene()[2];
+
+					Game.loadScene("scenes/" + "level_" + Number(currentSceneNum + 1).toString() + ".scn");
 				}
 			}
 			

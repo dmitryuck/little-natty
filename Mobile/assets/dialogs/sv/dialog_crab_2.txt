@@ -1,0 +1,80 @@
+<dialog>
+  <replic id="0" person="friend">
+	Äntligen!
+  </replic>
+  
+  <replic id="1" person="friend">
+	Jag har redan börjat tro att du inte kommer...
+  </replic>
+  
+  <replic id="2" person="natty">
+	Det var inte lätt att hitta nyckeln...
+  </replic>
+  
+  <replic id="3" person="friend">
+	Tja, vad du står? Öppna buren snart!
+  </replic>
+  
+  <replic id="4" person="natty">
+	Det är allt, nu är du fri!
+  </replic>
+  
+  <replic id="5" person="friend">
+	Hur kan jag hjälpa dig?
+  </replic>
+  
+  <replic id="6" person="natty">
+	Sköldpaddor inte var här?
+  </replic>
+  
+  <replic id="7" person="friend">
+	Nej...
+  </replic>
+  
+  <replic id="8" person="friend">
+	Men jag vet var de kan vara!
+  </replic>
+  
+  <replic id="9" person="natty">
+	Verkligen? Var är den?
+  </replic>
+  
+  <replic id="10" person="friend">
+	Följ genom skogen längs denna väg...
+  </replic>
+  
+  <replic id="11" person="friend">
+	Och gå ut till vattenfallet, de är förmodligen ute!
+  </replic>
+  
+  <replic id="12" person="natty">
+	Tack! Akta dig för fällor!
+  </replic>
+  
+  <replic id="13" person="friend">
+	Heh-heh-heh, lycka till dig och sköldpaddan!
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

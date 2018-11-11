@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="friend">
+	А, это снова ты...
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Ну что, ты сделала то, о чем я тебя просил?
+  </replic> 
+  
+  <replic id="2" person="natty">
+	Да, он очень благодарен и в ответ шлет тебе эту грушу...
+  </replic> 
+  
+  <replic id="3" person="friend">
+	Спасибо тебе черепашка, я знал что тебе можно верить...
+  </replic> 
+  
+  <replic id="4" person="natty">
+	Так как мне пройти к водопаду?
+  </replic> 
+  
+  <replic id="5" person="friend">
+	Вон видишь тропинка, иди по ней, и выйдеш прямо к водопаду!
+  </replic> 
+  
+  <replic id="6" person="natty">
+	Спасибо тебе червячек!
+  </replic> 
+  
+  <replic id="7" person="friend">
+	Удачи тебе черепашка!
+  </replic> 
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

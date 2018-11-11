@@ -1,0 +1,56 @@
+﻿<dialog>
+  <replic id="0" person="natty">
+	Hallo! Ich habe das Paket für dich!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Von wem der?
+  </replic> 
+  
+  <replic id="2" person="natty">
+	Ist es Von dein Freund.
+  </replic> 
+  
+  <replic id="3" person="friend">
+	Oh, aus der Wurm, danke!
+  </replic> 
+  
+  <replic id="4" person="friend">
+	Und du überträgt von mir diese Birne, in Zeichen der Dankbarkeit...
+  </replic> 
+  
+  <replic id="5" person="natty">
+	Gib die Birne mich, ohne Probleme!
+  </replic>
+  
+  <replic id="6" person="friend">
+	Glück!
+  </replic>
+
+  <replic id="7" person="natty">
+	Danke, Wurm!
+  </replic>   
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

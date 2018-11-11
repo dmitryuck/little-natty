@@ -1,0 +1,116 @@
+<dialog>
+  <replic id="0" person="friend">
+	Гг, бананьчики, мои любимые...
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Как я вас долго ждал...
+  </replic>
+  
+  <replic id="2" person="natty">
+	Бананы свои получишь, когда мне все расскажеш!
+  </replic>
+  
+  <replic id="3" person="natty">
+	Так куда пошли черепахи?
+  </replic>
+  
+  <replic id="4" person="friend">
+	Садись поудобней и слушай мою историю...
+  </replic>
+  
+  <replic id="5" person="friend">
+	Когдато, давным давно...
+  </replic>
+  
+  <replic id="6" person="friend">
+	Когда я плавал с пиратами по бескрайнему морю...
+  </replic>
+  
+  <replic id="7" person="friend">
+	Мы несколько раз проплывали мимо острова...
+  </replic>
+  
+  <replic id="8" person="friend">
+	На котором было столько черепах...
+  </replic>
+  
+  <replic id="9" person="friend">
+	Что просто невозможно передать словами...
+  </replic>
+  
+  <replic id="10" person="friend">
+	Весь остров выглядел как одна гигантская черепаха...
+  </replic>
+  
+  <replic id="11" person="friend">
+	Место это называется "Черепаший Остров"!
+  </replic>
+  
+  <replic id="12" person="natty">
+	И как же мне туда попасть?
+  </replic>
+  
+  <replic id="13" person="friend">
+	У моего капитана на корабле была карта...
+  </replic>
+  
+  <replic id="14" person="friend">
+	Но шторм разрушил корабль, а море забрало все...
+  </replic>
+  
+  <replic id="15" person="friend">
+	Здесь неподалеку на пляже я видел останки нашего корабля...
+  </replic>
+  
+  <replic id="16" person="friend">
+	Найди среди них эту карту и следуй по ней на "Черепаший Остров"...
+  </replic>
+  
+  <replic id="17" person="friend">
+	Там ты и найдешь свою маму...
+  </replic>
+  
+  <replic id="18" person="friend">
+	Только держись курса и не сбивайся с пути!
+  </replic>
+  
+  <replic id="19" person="friend">
+	Помни, море - опасная стихия...
+  </replic>
+  
+  <replic id="20" person="friend">
+	Поверь мне, как бывшему моряку...
+  </replic>
+  
+  <replic id="21" person="natty">
+	Спасибо тебе попугай!
+  </replic>
+  
+  <replic id="22" person="friend">
+	И тебе спасибо, береги себя черепашка!
+  </replic>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

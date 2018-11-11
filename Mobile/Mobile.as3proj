@@ -8,10 +8,11 @@
     <movie fps="30" />
     <movie width="960" />
     <movie height="640" />
-    <movie version="3" />
-    <movie minorVersion="1" />
+    <movie version="28" />
+    <movie minorVersion="0" />
     <movie platform="AIR Mobile" />
     <movie background="#000000" />
+    <movie preferredSDK="Flex 4.6.0, AIR 3.1;4.6.0, 3.1;" />
   </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
@@ -20,9 +21,11 @@
   <!-- Build options -->
   <build>
     <option accessible="False" />
+    <option advancedTelemetry="False" />
     <option allowSourcePathOverlap="False" />
     <option benchmark="False" />
     <option es="False" />
+    <option inline="False" />
     <option locale="" />
     <option loadConfig="" />
     <option optimize="True" />
@@ -53,10 +56,16 @@
     <element path="lib\fzip.swc" />
     <element path="lib\debug_nape.swc" />
     <element path="lib\TweensyOriginalCS4.swc" />
+    <element path="lib\Appodeal.ane" />
+    <element path="lib\AppodealPlayServices.ane" />
+    <element path="lib\AppodealSupportLib.ane" />
+    <element path="lib\Toast.ane" />
   </libraryPaths>
   <!-- External Libraries -->
   <externalLibraryPaths>
-    <!-- example: <element path="..." /> -->
+    <element path="lib\Appodeal.swc" />
+    <element path="lib\AppodealPlayServices.swc" />
+    <element path="lib\AppodealSupportLib.swc" />
   </externalLibraryPaths>
   <!-- Runtime Shared Libraries -->
   <rslPaths>
@@ -76,7 +85,7 @@
   </compileTargets>
   <!-- Paths to exclude from the Project Explorer tree -->
   <hiddenPaths>
-    <!-- example: <hidden path="..." /> -->
+    <hidden path="obj" />
   </hiddenPaths>
   <!-- Executed before build -->
   <preBuildCommand />

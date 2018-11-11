@@ -1,0 +1,11 @@
+<scene script="Menu" name="">
+  <objects>
+    <frontLayer />
+    <gameLayer>
+      <object rotation="0" xPosition="0" prefab="" yPosition="0" fileName="graphics/interface/menu_bg.swf" tag="" name="" type="" scale="1" index="0" center="false" />
+      <object rotation="0" xPosition="17" prefab="" yPosition="32" fileName="graphics/interface/menu_glaza.swf" tag="" name="eyes" type="" scale="1" index="1" center="true" />
+    </gameLayer>
+    <backLayer />
+  </objects>
+  <prefabs />
+</scene>

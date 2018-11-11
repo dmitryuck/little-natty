@@ -1,0 +1,33 @@
+﻿<dialog>
+  <replic id="0" person="natty">
+	Ciao slug!
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Ciao Turtle!
+  </replic>
+  
+  <replic id="2" person="natty">
+	Non podskazhesh, dove una cascata qui vicino?
+  </replic>
+  
+  <replic id="3" person="friend">
+	Certo che lo so dove accanto a una cascata!
+  </replic>
+  
+  <replic id="4" person="friend">
+	Solo tu soddisfare una mia piccola, ma la missione molto responsabile.
+  </replic>
+  
+  <replic id="5" person="natty">
+	E cosa dovrei fare?
+  </replic>
+  
+  <replic id="6" person="friend">
+	Prendete una mela al mio buon amico, e poi tornare qui...
+  </replic>
+  
+  <replic id="7" person="natty">
+	Beh, io soddisfare la vostra richiesta...
+  </replic>
+</dialog>

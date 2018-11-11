@@ -1,0 +1,56 @@
+<dialog>
+  <replic id="0" person="friend">
+	Oh, c'est toi encore...
+  </replic>  
+  
+  <replic id="1" person="friend">
+	Eh bien, vous avez fait ce que je vous ai demandé de?
+  </replic> 
+  
+  <replic id="2" person="natty">
+	Oui, il est très reconnaissant et en retour vous envoie cette poire...
+  </replic> 
+  
+  <replic id="3" person="friend">
+	Merci de tortue, je sais que vous pouvez faire confiance...
+  </replic> 
+  
+  <replic id="4" person="natty">
+	Alors, comment puis-je aller à la cascade?
+  </replic> 
+  
+  <replic id="5" person="friend">
+	Vaughn voit un chemin, passer par là et sortir directement à la cascade!
+  </replic> 
+  
+  <replic id="6" person="natty">
+	Merci ver de terre!
+  </replic> 
+  
+  <replic id="7" person="friend">
+	Bonne chance à vous de tortue!
+  </replic> 
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

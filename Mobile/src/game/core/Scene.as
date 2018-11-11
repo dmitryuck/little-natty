@@ -330,7 +330,7 @@ package game.core
 		{
 			emptyScene();
 			
-			source.setSource(fileName);			
+			source.setSource(fileName);
 			
 			/*var loader:Loader = new Loader();
 			loader.contentLoaderInfo.addEventListener(Event.COMPLETE, onSceneDataLoaded);		
@@ -344,139 +344,138 @@ package game.core
 			{ 
 				loader.contentLoaderInfo.removeEventListener(Event.COMPLETE, onSceneDataLoaded);*/
 			
-			var xmlBytes:ByteArray = source.getSource();
-			if (!xmlBytes) throw new Error("Scene " + fileName + " not found in assets.zip");
+				var xmlBytes:ByteArray = source.getSource();
+				if (!xmlBytes) throw new Error("Scene " + fileName + " not found in assets.zip");
+					
+				var xmlScene:XML = new XML(xmlBytes);
+				script = xmlScene.@script;
+				name = xmlScene.@name != "" ? xmlScene.@name : setSceneName(fileName);
 				
-			var xmlScene:XML = new XML(xmlBytes);
-			script = xmlScene.@script;
-			name = xmlScene.@name != "" ? xmlScene.@name : setSceneName(fileName);
-			
-			// Заменить сепараторы на обратные, используемые в Windows - "\"
-			function replaceSeparators(path:String):String
-			{
-				function replace(path:String):String
+				// Заменить сепараторы на обратные, используемые в Windows - "\"
+				function replaceSeparators(path:String):String
 				{
-					return path.replace("/", "\\");
+					function replace(path:String):String
+					{
+						return path.replace("/", "\\");
+					}
+					
+					for (var n:int = 0; n < path.length; n++)
+					{
+						if (path.charAt(n) == "/")
+						{
+							path = replace(path);					
+						}				
+					}
+					
+					return path;
 				}
 				
-				for (var n:int = 0; n < path.length; n++)
+				// Считывание префабов
+				for each (var prefab:XML in xmlScene.prefabs.*)
 				{
-					if (path.charAt(n) == "/")
+					var newPrefab:Prefab = addPrefab(prefab.@type, replaceSeparators(prefab.@fileName), prefab.@name, prefab.@tag);
+					
+					newPrefab.scale = prefab.@scale;
+				}			
+				
+				// Загрузка обьекта
+				function loadObject(object:XML):void
+				{
+					var type:Class = null;
+					
+					// Создание экземпляра класса согласно типу в игре
+					if (object.@type != "" && Project.isGame()) type = getDefinitionByName("user." + object.@type) as Class;			
+					
+					var gameObject:GameObject = createObject(new Position(object.@xPosition, object.@yPosition), type, Project.isEditor() ? replaceSeparators(object.@fileName) : object.@fileName, object.@name, object.@tag);
+					gameObject.addEventListener(ObjectEvent.OBJECT_LOADED, onObjectLoaded);
+					
+					// Обьект загружен на сцену
+					function onObjectLoaded(e:ObjectEvent):void
 					{
-						path = replace(path);					
+						gameObject.removeEventListener(ObjectEvent.OBJECT_LOADED, onObjectLoaded);
+						
+						// Установка типа обьекта в редакторе
+						if (Project.isEditor()) gameObject.type = object.@type;	
+						
+						// Установка центра обьекта, по умолчанию ценр установлен
+						if (object.@center == "false") gameObject.relativeCenter = false;
+						
+						// Установка ротации и скалирования обьекта
+						gameObject.rotation = object.@rotation;
+						gameObject.scale = object.@scale;
+						
+						// Привязка обьекта к префабу
+						if (object.@prefab != "")	gameObject.prefab = getPrefab(object.@prefab);	
+						
+						// Расположение относительно других обьектов
+						var index:int = int(object.@index);
+						gameObject.parent.setChildIndex(gameObject, index);
+						
+						// Счетчик загруженных обьектов на сцену
+						objectsLoaded += 1;					
+						
+						if (objectsLoaded >= totalObjects)
+						{
+							setActiveLayer(gameLayer);
+							dispatchEvent(new SceneEvent(SceneEvent.SCENE_LOADED));
+						}
 					}				
 				}
 				
-				return path;
-			}
-			
-			// Считывание префабов
-			for each (var prefab:XML in xmlScene.prefabs.*)
-			{
-				var newPrefab:Prefab = addPrefab(prefab.@type, replaceSeparators(prefab.@fileName), prefab.@name, prefab.@tag);
+				var xmlFrontLayer:XMLList = xmlScene.objects.frontLayer.*;
+				var frontLayerLength:int = xmlFrontLayer.length();
 				
-				newPrefab.scale = prefab.@scale;
-			}			
-			
-			// Загрузка обьекта
-			function loadObject(object:XML):void
-			{
-				var type:Class = null;
+				var xmlGameLayer:XMLList = xmlScene.objects.gameLayer.*;
+				var gameLayerLength:int = xmlGameLayer.length();
 				
-				// Создание экземпляра класса согласно типу в игре
-				if (object.@type != "" && Project.isGame()) type = getDefinitionByName("user." + object.@type) as Class;			
+				var xmlBackLayer:XMLList = xmlScene.objects.backLayer.*;
+				var backLayerLength:int = xmlBackLayer.length();
 				
-				var gameObject:GameObject = createObject(new Position(object.@xPosition, object.@yPosition), type, Project.isEditor() ? replaceSeparators(object.@fileName) : object.@fileName, object.@name, object.@tag);
-				gameObject.addEventListener(ObjectEvent.OBJECT_LOADED, onObjectLoaded);
+				var objectsLoaded:int = 0;
+				var totalObjects:int = frontLayerLength + gameLayerLength + backLayerLength;				
 				
-				// Обьект загружен на сцену
-				function onObjectLoaded(e:ObjectEvent):void
+				// Загрузка обьектов Заднего слоя
+				setActiveLayer(backLayer);
+				
+				for (var i:int = 0; i < backLayerLength; i++)
 				{
-					gameObject.removeEventListener(ObjectEvent.OBJECT_LOADED, onObjectLoaded);
-					
-					// Установка типа обьекта в редакторе
-					if (Project.isEditor()) gameObject.type = object.@type;	
-					
-					// Установка центра обьекта, по умолчанию ценр установлен
-					if (object.@center == "false") gameObject.relativeCenter = false;
-					
-					// Установка ротации и скалирования обьекта
-					gameObject.rotation = object.@rotation;
-					gameObject.scale = object.@scale;
-					
-					// Привязка обьекта к префабу
-					if (object.@prefab != "")	gameObject.prefab = getPrefab(object.@prefab);	
-					
-					// Расположение относительно других обьектов
-					var index:int = int(object.@index);
-					gameObject.parent.setChildIndex(gameObject, index);
-					
-					// Счетчик загруженных обьектов на сцену
-					objectsLoaded += 1;					
-					
-					if (objectsLoaded >= totalObjects)
+					for each (var object0:XML in xmlBackLayer)
 					{
-						setActiveLayer(gameLayer);
-						dispatchEvent(new SceneEvent(SceneEvent.SCENE_LOADED));
-					}
-				}				
-			}
-			
-			var xmlFrontLayer:XMLList = xmlScene.objects.frontLayer.*;
-			var frontLayerLength:int = xmlFrontLayer.length();
-			
-			var xmlGameLayer:XMLList = xmlScene.objects.gameLayer.*;
-			var gameLayerLength:int = xmlGameLayer.length();
-			
-			var xmlBackLayer:XMLList = xmlScene.objects.backLayer.*;
-			var backLayerLength:int = xmlBackLayer.length();
-			
-			var objectsLoaded:int = 0;
-			var totalObjects:int = frontLayerLength + gameLayerLength + backLayerLength;				
-			
-			// Загрузка обьектов Заднего слоя
-			setActiveLayer(backLayer);
-			
-			for (var i:int = 0; i < backLayerLength; i++)
-			{
-				for each (var object0:XML in xmlBackLayer)
+						if (object0.@index == i)
+						{
+							loadObject(object0);
+						}
+					}				
+				}
+				
+				// Загрузка обьектов Игрового слоя
+				setActiveLayer(gameLayer);
+				
+				for (var n:int = 0; n < gameLayerLength; n++)
 				{
-					if (object0.@index == i)
+					for each (var object1:XML in xmlGameLayer)
 					{
-						loadObject(object0);
-					}
-				}				
-			}
-			
-			// Загрузка обьектов Игрового слоя
-			setActiveLayer(gameLayer);
-			
-			for (var n:int = 0; n < gameLayerLength; n++)
-			{
-				for each (var object1:XML in xmlGameLayer)
-				{
-					if (object1.@index == n)
-					{
-						loadObject(object1);
+						if (object1.@index == n)
+						{
+							loadObject(object1);
+						}
 					}
 				}
-			}
-			
-			// Загрузка обьектов Фронтального слоя
-			setActiveLayer(frontLayer);
-			
-			for (var j:int = 0; j < frontLayerLength; j++)
-			{
-				for each (var object2:XML in xmlFrontLayer)
+				
+				// Загрузка обьектов Фронтального слоя
+				setActiveLayer(frontLayer);
+				
+				for (var j:int = 0; j < frontLayerLength; j++)
 				{
-					if (object2.@index == j)
+					for each (var object2:XML in xmlFrontLayer)
 					{
-						loadObject(object2);
+						if (object2.@index == j)
+						{
+							loadObject(object2);
+						}
 					}
-				}
-			}
-			
-			//}
+				}			
+			// }
 		}
 		
 		//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

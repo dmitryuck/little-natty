@@ -1,30 +1,13 @@
 package game.utils 
 {
 	import flash.net.*;
-	
-	import com.aratush.ane.toast.DurationEnum;
-	import com.aratush.ane.toast.GravityEnum;
-	import com.aratush.ane.toast.ToastExtension;
-	
+
 	/**
 	 * ...
 	 * @author Monkgol
 	 */	 
 	public class Utils 
 	{
-		public static function showToast(text:String):void {
-			if (ToastExtension.isSupported)
-			{
-				var toast:ToastExtension = new ToastExtension();
-				toast.setText(text);
-				toast.setDuration(DurationEnum.LENGTH_LONG);
-				toast.setGravity(GravityEnum.CENTER, 0, 50);
-				toast.show();
-				// close the toast 
-				// toast.cancel();
-			}
-		}
-		
 		// Расшарить в соц. сетях
 		public static function shareTo(site:String, text:String, link:String, title:String = null, image:String = null):void
 		{

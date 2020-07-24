@@ -1,9 +1,9 @@
-<interface>
+﻿<interface>
   <ID_PLAY>Hrát</ID_PLAY>
   <ID_MENU>Menu</ID_MENU>
   <ID_EXIT>Výstup</ID_EXIT>
   <ID_OPTIONS>Možnosti</ID_OPTIONS>
-  <ID_MORE_GAMES>Další hry</ID_MORE_GAMES>
+  <ID_RESET>Zahrajte si od začátku</ID_RESET>
   <ID_OK>Ano</ID_OK>
   <ID_AGAIN>Opět</ID_AGAIN>
   <ID_NEXT>Další</ID_NEXT>

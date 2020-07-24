@@ -19,8 +19,6 @@ package
 	import game.ui.Text;
 	import game.ui.Window;
 	
-	import com.appodeal.aneplugin.*;
-	
 	import user.*;
 	import game.core.*;
 	/**
@@ -35,10 +33,6 @@ package
 		//public static var ArialUnicodeMS:Class;
 		
 		public static var gameUrl:String = "https://play.google.com/store/apps/details?id=air.com.littlenatty";
-		
-		public static var appodeal: Appodeal = new Appodeal();
-		private static var appKey: String = "b6fedadd7136984e32abeea9a358036645ccc231d9cdd65c";
-		private static var adTypes: int = Appodeal.BANNER_BOTTOM | Appodeal.REWARDED_VIDEO | Appodeal.INTERSTITIAL;
 		
 		private static var loadingWnd:Window;
 
@@ -69,11 +63,6 @@ package
 		
 		public function Main():void 
 		{
-			appodeal.initialize(appKey, adTypes);
-			appodeal.setTesting(true);
-			
-			appodeal.show(Appodeal.BANNER_BOTTOM);
-			
 			stage.scaleMode = StageScaleMode.NO_SCALE;
 			stage.align = StageAlign.TOP_LEFT;
 			
@@ -122,8 +111,6 @@ package
 		// Загрузить игровой интерфейс
 		public static function loadInterface():void
 		{
-			appodeal.hide(Appodeal.BANNER_BOTTOM);
-			
 			if (Game.scene.getCurrentScene() != "level_1") Audio.playMusic("sounds/game_music.mp3", true);
 			
 			interfaceWnd = Game.loadWindow(new Position(), "interface", Interface, null);
@@ -198,8 +185,6 @@ package
 		// Уровень проигран
 		public static function gameOver():void
 		{
-			appodeal.show(Appodeal.INTERSTITIAL);
-			
 			fruitsActive = false;
 			
 			Audio.playMusic("sounds/level_over.mp3");
@@ -258,8 +243,6 @@ package
 		// Уровень пройден
 		public static function levelCompleted():void
 		{
-			appodeal.show(Appodeal.INTERSTITIAL);
-			
 			fruitsActive = false;
 			
 			Audio.stopAllSounds();

@@ -111,7 +111,7 @@ package game.core
 				if (!musicChannel) musicChannel = new SoundChannel();
 				
 				musicChannel = sound.play(0, loop ? 10 : 0);
-				// Utils.showToast(musicChannel.toString());
+
 				function onPlayingComplete(e:Event):void
 				{
 					if (onComplete) onComplete();

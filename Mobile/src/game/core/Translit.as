@@ -4,6 +4,8 @@ package game.core
 	import flash.system.Capabilities;
 	import flash.utils.ByteArray;
 	
+	import game.utils.*;
+	
 	/**
 	 * ...
 	 * @author Monkgol
@@ -12,35 +14,39 @@ package game.core
 	{
 		public static var currentLng:String;		
 		
-		public static var xmlLng:XML;		
+		public static var xmlLng:XML;
+		
+		private static var availableLngs:Array = ["cs", "de", "en", "es", "fr", "it", "ru", "sv"];
 		
 		
 		// Загрузить языковый файл
 		public static function loadLng(lngDir:String):void
 		{
-			currentLng = Capabilities.language;	
-			if (currentLng == "xu") currentLng = "en";
-			
-			//currentLng = "en";
-			
-			var byteArray:ByteArray = new Source(lngDir + currentLng + ".txt").getSource();
-			
-			if (!byteArray) byteArray = new Source(lngDir + "en.txt").getSource();
-			
-			xmlLng = new XML(byteArray);
-			
-			/*var lng:String = fileName.slice(0, fileName.length - 4);
-			
-			for (var i:int = lng.length; i > 0; i--)
+			for (var i:int = 0; i < Capabilities.languages.length; i++)
 			{
-				if (lng.charAt(i) == File.separator || lng.charAt(i) == "/")
+				var currLang:String = Capabilities.languages[i].toString().toLowerCase();
+				
+				for (var n:int = 0; n < availableLngs.length; n++)
 				{
-					lng = lng.slice(i + 1, lng.length);	
-					break;
+					var currAvailLang:String = availableLngs[n];
+					
+					var myPattern:RegExp = new RegExp(currAvailLang);
+					
+					if (currLang.match(myPattern))
+					{
+						var byteArray:ByteArray = new Source(lngDir + currAvailLang + ".txt").getSource();
+			
+						xmlLng = new XML(byteArray);
+						
+						return;
+					}
 				}
 			}
 			
-			currentLng = lng;	*/		
+	
+			var byteArray:ByteArray = new Source(lngDir + "en" + ".txt").getSource();
+			
+			xmlLng = new XML(byteArray);
 		}
 		
 		// Взять строку по ее ID

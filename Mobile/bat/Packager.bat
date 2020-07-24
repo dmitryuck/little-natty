@@ -12,6 +12,8 @@ set SIGNING_OPTIONS=%AND_SIGNING_OPTIONS%
 set ICONS=%AND_ICONS%
 set DIST_EXT=apk
 set TYPE=apk
+:set DIST_EXT=aab
+:set TYPE=aab
 goto start
 
 :ios-config
@@ -41,7 +43,7 @@ set OUTPUT=%DIST_PATH%\%DIST_NAME%%TARGET%.%DIST_EXT%
 echo Packaging: %OUTPUT%
 echo using certificate: %CERT_FILE%...
 echo.
-call adt -package -target %TYPE%%TARGET% %OPTIONS% %SIGNING_OPTIONS% "%OUTPUT%" "%APP_XML%" %FILE_OR_DIR% -extdir lib/
+call adt -package -target %TYPE%%TARGET%  %OPTIONS% %SIGNING_OPTIONS% "%OUTPUT%" "%APP_XML%" %FILE_OR_DIR% -extdir lib/
 echo.
 if errorlevel 1 goto failed
 goto end

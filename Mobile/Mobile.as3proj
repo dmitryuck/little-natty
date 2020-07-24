@@ -8,7 +8,7 @@
     <movie fps="30" />
     <movie width="960" />
     <movie height="640" />
-    <movie version="28" />
+    <movie version="16" />
     <movie minorVersion="0" />
     <movie platform="AIR Mobile" />
     <movie background="#000000" />
@@ -56,16 +56,9 @@
     <element path="lib\fzip.swc" />
     <element path="lib\debug_nape.swc" />
     <element path="lib\TweensyOriginalCS4.swc" />
-    <element path="lib\Appodeal.ane" />
-    <element path="lib\AppodealPlayServices.ane" />
-    <element path="lib\AppodealSupportLib.ane" />
-    <element path="lib\Toast.ane" />
   </libraryPaths>
   <!-- External Libraries -->
   <externalLibraryPaths>
-    <element path="lib\Appodeal.swc" />
-    <element path="lib\AppodealPlayServices.swc" />
-    <element path="lib\AppodealSupportLib.swc" />
   </externalLibraryPaths>
   <!-- Runtime Shared Libraries -->
   <rslPaths>

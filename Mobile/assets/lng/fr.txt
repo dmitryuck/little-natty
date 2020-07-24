@@ -1,9 +1,9 @@
-<interface>
+﻿<interface>
   <ID_PLAY>Jouer</ID_PLAY>
   <ID_MENU>Menu</ID_MENU>
   <ID_EXIT>Sortie</ID_EXIT>
   <ID_OPTIONS>Options</ID_OPTIONS>
-  <ID_MORE_GAMES>Plus de jeux</ID_MORE_GAMES>
+  <ID_RESET>Jouer en premier</ID_RESET>
   <ID_OK>Oui</ID_OK>
   <ID_AGAIN>Encore</ID_AGAIN>
   <ID_NEXT>Plus</ID_NEXT>

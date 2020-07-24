@@ -3,7 +3,7 @@
   <ID_MENU>Menu</ID_MENU>
   <ID_EXIT>Exit</ID_EXIT>
   <ID_OPTIONS>Options</ID_OPTIONS>
-  <ID_MORE_GAMES>More Games</ID_MORE_GAMES>
+  <ID_RESET>Reset Game</ID_RESET>
   <ID_OK>Ok</ID_OK>
   <ID_AGAIN>Again</ID_AGAIN>
   <ID_NEXT>Next</ID_NEXT>

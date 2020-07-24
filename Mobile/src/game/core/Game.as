@@ -29,7 +29,7 @@ package game.core
 	public class Game
 	{
 		// Архив игровых ресурсов
-		[Embed(source = "/../assets/assets.zip",  mimeType="application/octet-stream")]
+		[Embed(source = "/../assets.zip",  mimeType="application/octet-stream")]
 		public static var Assets:Class;
 		
 		public static var assets:FZip;
